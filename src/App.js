@@ -8,6 +8,7 @@ import Research from './component/Research';
 import Members from './component/Members';
 import Papers from './component/Papers';
 import Lectures from './component/Lectures';
+import OpenLab from './component/OpenLab';
 import Access from './component/Access';
 import { ChakraProvider } from '@chakra-ui/react';
 
@@ -24,6 +25,7 @@ return (
 <Route path="/chiashi/react/members" element={<Members language={language} />} />
 <Route path="/chiashi/react/papers" element={<Papers language={language} />} />
 <Route path="/chiashi/react/lectures" element={<Lectures language={language} />} />
+<Route path="/chiashi/react/openlab" element={<OpenLab language={language} />} />
 <Route path="/chiashi/react/access" element={<Access language={language} />} />
 </Routes>
 </BrowserRouter>

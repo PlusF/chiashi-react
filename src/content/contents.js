@@ -1,7 +1,7 @@
 export const Pages = {
-    'Japanese': ['Home', 'お知らせ', '研究', 'メンバー', '論文', '講義', 'アクセス'],
-    'English': ['Home', 'News', 'Research', 'Members', 'Publications', 'Lectures', 'Access'],
-    links: ['/chiashi/react', '/chiashi/react/news', '/chiashi/react/research', '/chiashi/react/members', '/chiashi/react/papers', '/chiashi/react/lectures', '/chiashi/react/access']
+    'Japanese': ['ホーム', 'お知らせ', '研究', 'メンバー', '論文', '講義', 'オープンラボ', 'アクセス'],
+    'English': ['Home', 'News', 'Research', 'Members', 'Publications', 'Lectures', 'OpenLab', 'Access'],
+    links: ['/chiashi/react', '/chiashi/react/news', '/chiashi/react/research', '/chiashi/react/members', '/chiashi/react/papers', '/chiashi/react/lectures', '/chiashi/react/openlab', '/chiashi/react/access']
 }
 
 export const TitleStr = {
@@ -241,6 +241,17 @@ export const LecturesStr = {
             'Mechanical Engineering Comprehensive Exercise II',
             'Molecular Dynamics and Nanotechnology (Graduate)',
         ]
+    }
+}
+
+export const OpenLabStr = {
+    'Japanese': {
+        title: 'オープンラボ',
+        contents: [],
+    },
+    'English': {
+        title: 'Open Lab.',
+        contents: [],
     }
 }
 
