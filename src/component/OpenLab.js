@@ -1,46 +1,47 @@
-import { Center, HStack, Link, Text, Table, Tbody, TableContainer, Td, Tr, VStack } from "@chakra-ui/react";
-import { FaUniversity } from "react-icons/fa";
-import { OpenLabStr } from "../content/contents";
+import { Center, HStack, Link, Text, Table, Tbody, TableContainer, Td, Tr, VStack , Image} from "@chakra-ui/react";
+import { GiDiscussion } from "react-icons/gi";
+import { GrSchedules } from "react-icons/gr";
+import { OpenLabStr } from '../content/contents';
 import {contentStyle, titleStyle} from '../style/style';
-import {Document, Page} from "react-pdf";
+import {Document, Page, pdfjs} from 'react-pdf';
+// import introPDF from '../assets/intro2023.pdf';
+import introIMG from '../assets/intro2023.jpg';
+
 
 export default function OpenLab(props) {
+    // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
     return (
         <>
         <Center sx={titleStyle}>
             <HStack>
-                <FaUniversity />
+                <GiDiscussion />
                 <Text>{OpenLabStr[props.language].title}</Text>
             </HStack>
         </Center>
+        <Center sx={titleStyle}>
+            <VStack>
+                <HStack>
+                    <GrSchedules />
+                    <Text>{OpenLabStr[props.language].schedule_title}</Text>
+                </HStack>
+                <VStack>
+                    {OpenLabStr[props.language].schedule.map((data) => {
+                        return(
+                            <Text>{data}</Text>
+                        )
+                    })}
+                </VStack>
+                
+            </VStack>
+            
+        </Center>
         <VStack>
-            <Document file="../assets/intro2023.pdf">
-            <Page pageNumber={1} />
-            </Document>
+            {/* pdf表示が上手くいかない */}
+            {/* <Document file={introPDF}>
+                <Page pageNumber={1} />
+            </Document> */}
+            <Image src={introIMG} alt={OpenLabStr[props.language].poster} objectFit='cover' />
         </VStack>
-        {/* <Text>{OpenLabStr[props.language].main}</Text> */}
-        {/* <TableContainer>
-            <Table variant='simple'>
-            <Tbody sx={contentStyle}>
-                {
-                    OpenLabStr.contents.map((data) => {
-                        return (
-                            <Tr key={data.title}>
-                                <Td>
-                                    <VStack>
-                                        <Text>{data.author}</Text>
-                                        <Text>"{data.title},"</Text>
-                                        <Text>{data.journal}. <Link isExternal href={data.doi} color='teal.500'>{data.doi}</Link></Text>
-                                    </VStack>
-                                </Td>
-                            </Tr>
-                        );
-                    })
-                }
-                </Tbody>
-            </Table>
-        </TableContainer> */}
-
         </>
     );
 }
