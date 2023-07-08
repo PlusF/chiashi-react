@@ -1,23 +1,34 @@
 import './App.css';
 import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './component/Navbar';
-import Title from './component/Title';
-import Introduction from './component/Introduction';
+import Home from './component/Home';
 import News from './component/News';
-import Researchs from './component/Researches';
+import Research from './component/Research';
+import Members from './component/Members';
+import Papers from './component/Papers';
+import Lectures from './component/Lectures';
+import Access from './component/Access';
 import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
-  const [language, setLanguage] = useState("Japanese");
-  return (
-    <ChakraProvider >
-      <Navbar language={language} setLanguage={setLanguage} />
-      <Title language={language} />
-      <Introduction language={language} />
-      <News language={language} />
-      <Researchs language={language} />
-    </ChakraProvider >
-  );
+const [language, setLanguage] = useState("Japanese");
+return (
+<ChakraProvider >
+<BrowserRouter>
+<Navbar language={language} setLanguage={setLanguage} />
+<Routes>
+<Route exact path="/chiashi/react/" element={<Home language={language} />} />
+<Route path="/chiashi/react/news" element={<News language={language} />} />
+<Route path="/chiashi/react/research" element={<Research language={language} />} />
+<Route path="/chiashi/react/members" element={<Members language={language} />} />
+<Route path="/chiashi/react/papers" element={<Papers language={language} />} />
+<Route path="/chiashi/react/lectures" element={<Lectures language={language} />} />
+<Route path="/chiashi/react/access" element={<Access language={language} />} />
+</Routes>
+</BrowserRouter>
+</ChakraProvider >
+);
 }
 
 export default App;

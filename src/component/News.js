@@ -1,7 +1,7 @@
 import { Center, HStack, Text, Table, Tbody, TableContainer, Td, Tr } from "@chakra-ui/react";
 import { HiOutlineNewspaper } from "react-icons/hi";
-import { NewsStr } from "../constants/contents";
-import {titleStyle} from '../constants/style'
+import { NewsStr } from "../content/contents";
+import {contentStyle, titleStyle} from '../style/style'
 
 export default function News(props) {
     return (
@@ -14,7 +14,7 @@ export default function News(props) {
         </Center>
         <TableContainer>
             <Table variant='simple'>
-            <Tbody>
+            <Tbody sx={contentStyle}>
                 {
                     NewsStr[props.language].content.map((data) => {
                         return (

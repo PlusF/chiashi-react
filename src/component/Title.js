@@ -1,6 +1,6 @@
 import { Box, Stack } from '@chakra-ui/react';
 import title from '../assets/title.jpg'
-import { TitleStr } from '../constants/contents';
+import { TitleStr } from '../content/contents';
 
 
 export default function Navbar(props) {
@@ -11,7 +11,7 @@ export default function Navbar(props) {
         textAlign: 'center',
         color: 'white',
         textShadow: '0 0 20px black',
-        fontFamily: "ヒラギノ角ゴシック",
+        fontFamily: "serif",
         minHeight: ['200px', '400px'],
         background: `url(${title}) center/cover no-repeat`,
     };
