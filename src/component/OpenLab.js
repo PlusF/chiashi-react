@@ -31,9 +31,7 @@ export default function OpenLab(props) {
                         )
                     })}
                 </VStack>
-                
             </VStack>
-            
         </Center>
         <VStack>
             {/* pdf表示が上手くいかない */}
