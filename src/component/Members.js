@@ -39,7 +39,7 @@ export default function Members(props) {
                     <HStack>
                         <Card direction={{ base: 'column', sm: 'row' }}>
                             <Center>
-                                <Image src={chiashi} objectFit='cover' boxSize={['150px', '200px', '300px']} py='1'/>
+                                <Image src={chiashi} objectFit='hidden' boxSize={['150px', '200px', '250px']}/>
                             </Center>
                             <VStack>
                                 <Text sx={professorStyle}>{MembersStr[props.language].professor.name}</Text>

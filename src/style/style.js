@@ -16,7 +16,7 @@ export const subTitleStyle = {
 
 export const contentStyle = {
     fontSize: {
-        'base': 9, 
+        'base': 15, 
         'sm': 12,
         'lg': 15,
     },

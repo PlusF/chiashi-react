@@ -1,16 +1,15 @@
 export const professorStyle = {
-    textAlign: 'left',
     fontSize: {
         'base': 15, 
         'sm': 20,
-        'md': 25,
-        'lg': 30,
+        'md': 22,
+        'lg': 24,
     },
     py: {
         'base': 3,
         'sm': 50,
         'md': 75,
-        'lg': 100,
+        'lg': 90,
     }
 }
 
@@ -30,7 +29,7 @@ export const linkStyle = {
 
 export const memberStyle = {
     fontSize: {
-        'base': 10, 
+        'base': 15, 
         'sm': 12,
         'md': 14,
         'lg': 16,
