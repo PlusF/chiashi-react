@@ -4,6 +4,8 @@ import { NewsStr } from "../content/contents";
 import {contentStyle, titleStyle} from '../style/util'
 
 export default function News(props) {
+    const scrollStyle = props.scroll ? {overflowY:"auto", maxHeight: "200px"} : {};
+
     return (
         <>
         <Center sx={titleStyle}>
@@ -12,24 +14,24 @@ export default function News(props) {
                 <Text>{NewsStr[props.language].title}</Text>
             </HStack>
         </Center>
-        <Box overflowY="auto" maxHeight="200px">
 
-        <TableContainer>
-            <Table variant='simple'>
-            <Tbody sx={contentStyle}>
-                {
-                    NewsStr[props.language].content.map((data) => {
-                        return (
-                            <Tr key={data.date}>
-                                <Td textAlign='right'>{data.date}</Td>
-                                <Td textAlign='left'>{data.news}</Td>
-                            </Tr>
-                        );
-                    })
-                }
-                </Tbody>
-            </Table>
-        </TableContainer>
+        <Box sx={scrollStyle} >
+            <TableContainer>
+                <Table variant='simple'>
+                <Tbody sx={contentStyle}>
+                    {
+                        NewsStr[props.language].content.map((data) => {
+                            return (
+                                <Tr key={data.date}>
+                                    <Td textAlign='right'>{data.date}</Td>
+                                    <Td textAlign='left'>{data.news}</Td>
+                                </Tr>
+                            );
+                        })
+                    }
+                    </Tbody>
+                </Table>
+            </TableContainer>
         </Box>
         </>
     );

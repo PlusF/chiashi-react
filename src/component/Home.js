@@ -8,7 +8,7 @@ export default function Home(props) {
         <>
             <Title language={props.language} />
             <Introduction language={props.language} />
-            <News language={props.language} />
+            <News language={props.language} scroll={true} />
             <Access language={props.language} />
         </>
     );
