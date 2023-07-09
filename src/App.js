@@ -20,7 +20,7 @@ function App() {
             <BrowserRouter>
             <Navbar language={language} setLanguage={setLanguage} />
             <Routes>
-                <Route exact path="/chiashi/react/home" element={<Home language={language} />} />
+                <Route exact path="/chiashi/react/" element={<Home language={language} />} />
                 <Route path="/chiashi/react/news" element={<News language={language} />} />
                 <Route path="/chiashi/react/research" element={<Research language={language} />} />
                 <Route path="/chiashi/react/members" element={<Members language={language} />} />

@@ -7,10 +7,9 @@ import {
     MenuButton,
     MenuList,
     MenuItem,
-    Text,
     useColorModeValue,
 } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { HamburgerIcon } from '@chakra-ui/icons';
 import { MdOutlineLanguage } from "react-icons/md";
 import { Pages } from '../content/util';
@@ -27,6 +26,8 @@ export default function Navbar(props) {
     }
 
     const navigate = useNavigate();
+    const location = useLocation();
+    console.log(location.pathname);
 
     return (
     <>
@@ -37,7 +38,7 @@ export default function Navbar(props) {
                         <MenuButton as={Button} leftIcon={<HamburgerIcon />} colorScheme='black' />
                         <MenuList bg='black'>
                             {pages.map((data) => (
-                                <MenuItem onClick={() => navigate(data.link)} key={data.link} sx={menuItemStyle} >{data.name}</MenuItem>
+                                <MenuItem onClick={() => navigate(data.link)} key={data.link} sx={menuItemStyle} isDisabled={location.pathname===data.link}>{data.name}</MenuItem>
                             ))}
                         </MenuList>
                     </Menu>
@@ -47,9 +48,9 @@ export default function Navbar(props) {
                     <Box sx={chiashiLabStyle}>Chiashi Lab.</Box>
                     <HStack sx={navLinkStackStyle}>
                         {pages.map((data) => (
-                            <Box sx={navLinkStyle} key={data.link}>
+                            <Box key={data.link}>
                                 <Link to={data.link}>
-                                    <Text mx='3' my='1'>{data.name}</Text></Link>
+                                    <Button sx={navLinkStyle} isDisabled={location.pathname===data.link}>{data.name}</Button></Link>
                             </Box>
                         ))}
                     </HStack>

@@ -34,7 +34,7 @@ export default function Research(props) {
             <Center>
                 <Stack direction={['column', 'row']} spacing='12px' mx='5'>
                     {ResearchStr[props.language].contents.map((content) => 
-                        <Card sx={researchStyle}>
+                        <Card sx={researchStyle} key={content.name}>
                             <CardHeader sx={researchTitleStyle}>{content.title}</CardHeader>
                             <CardBody><Image src={research9} /></CardBody>
                             <CardFooter alignContent='center'><Button flex='1' leftIcon={<MdKeyboardArrowRight />} sx={researchButtonStyle} onClick={() => handleClick(content.name)}>{ResearchStr[props.language].detail}</Button></CardFooter>

@@ -11,12 +11,17 @@ export const navLinkStackStyle = {
 }
 
 export const navLinkStyle = {
+    bg: 'black',
     color: 'gray',
     rounded: 'md',
     _hover: {
         color: 'white',
         bg: 'gray.900',
     },
+    px: 2,
+    py: 0,
+    fontWeight: 'normal',
+    fontSize: {md: 12, lg: 15},
 }
 
 export const menuItemStyle = {
