@@ -1,7 +1,7 @@
-import { Center, HStack, Text, Table, Tbody, TableContainer, Td, Tr } from "@chakra-ui/react";
+import { Box, Center, HStack, Text, Table, Tbody, TableContainer, Td, Tr } from "@chakra-ui/react";
 import { HiOutlineNewspaper } from "react-icons/hi";
 import { NewsStr } from "../content/contents";
-import {contentStyle, titleStyle} from '../style/style'
+import {contentStyle, titleStyle} from '../style/util'
 
 export default function News(props) {
     return (
@@ -12,6 +12,8 @@ export default function News(props) {
                 <Text>{NewsStr[props.language].title}</Text>
             </HStack>
         </Center>
+        <Box overflowY="auto" maxHeight="200px">
+
         <TableContainer>
             <Table variant='simple'>
             <Tbody sx={contentStyle}>
@@ -28,6 +30,7 @@ export default function News(props) {
                 </Tbody>
             </Table>
         </TableContainer>
+        </Box>
         </>
     );
 }

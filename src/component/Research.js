@@ -3,7 +3,7 @@ import { Button, Card, Center, HStack, Image, Stack, Text, useDisclosure, Modal,
 import { MdSearch, MdKeyboardArrowRight } from "react-icons/md";
 import { ResearchStr } from "../content/contents";
 import research9 from '../assets/research9.jpeg'
-import { titleStyle } from '../style/style'
+import { titleStyle } from '../style/util'
 import { researchStyle, researchTitleStyle, researchButtonStyle } from '../style/research'
 
 export default function Research(props) {

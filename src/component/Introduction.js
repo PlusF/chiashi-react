@@ -1,7 +1,7 @@
 import { Card, Center, HStack, Image, Text } from "@chakra-ui/react";
 import { FaGraduationCap } from "react-icons/fa";
 import { IntroductionStr } from "../content/contents";
-import { titleStyle, contentStyle } from "../style/style";
+import { titleStyle, contentStyle } from "../style/util";
 import research1 from '../assets/research1.jpeg'
 
 export default function Introduction(props) {

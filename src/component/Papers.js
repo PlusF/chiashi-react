@@ -1,7 +1,7 @@
 import { Center, HStack, Link, Text, Table, Tbody, TableContainer, Td, Tr, VStack } from "@chakra-ui/react";
 import { FaBookOpen } from "react-icons/fa";
 import { MainPapersStr } from "../content/contents";
-import {contentStyle, titleStyle} from '../style/style';
+import {contentStyle, titleStyle} from '../style/util';
 
 export default function Papers(props) {
     return (

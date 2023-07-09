@@ -9,7 +9,7 @@ import nishimura from '../assets/members/nishimura.jpg';
 import sakakibara from '../assets/members/sakakibara2.jpg';
 import endo from '../assets/members/endo.jpg';
 import miyata from '../assets/members/miyata.jpg';
-import { titleStyle } from '../style/style';
+import { titleStyle } from '../style/util';
 import { memberStyle, professorStyle, linkStyle } from '../style/members';
 
 export default function Members(props) {
