@@ -7,12 +7,13 @@ import {
     MenuButton,
     MenuList,
     MenuItem,
+    Text,
     useColorModeValue,
 } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import { HamburgerIcon } from '@chakra-ui/icons';
 import { MdOutlineLanguage } from "react-icons/md";
-import { Pages } from '../content/contents';
+import { Pages } from '../content/util';
 import { useNavigate } from 'react-router-dom';
 import { chiashiLabStyle, menuItemStyle, navLinkStackStyle, navLinkStyle } from '../style/navbar';
 
@@ -42,12 +43,13 @@ export default function Navbar(props) {
                     </Menu>
                 </Flex>
                 
-                <HStack spacing='1' alignItems={'center'}>
+                <HStack>
                     <Box sx={chiashiLabStyle}>Chiashi Lab.</Box>
                     <HStack sx={navLinkStackStyle}>
                         {pages.map((data) => (
                             <Box sx={navLinkStyle} key={data.link}>
-                                <Link to={data.link}>{data.name}</Link>
+                                <Link to={data.link}>
+                                    <Text mx='3' my='1'>{data.name}</Text></Link>
                             </Box>
                         ))}
                     </HStack>

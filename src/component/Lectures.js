@@ -1,6 +1,6 @@
 import { Center, HStack, Text, Table, Tbody, TableContainer, Td, Tr } from "@chakra-ui/react";
 import { FaChalkboardUser } from 'react-icons/fa6'
-import { LecturesStr } from "../content/contents";
+import { LecturesStr } from "../content/lectures";
 import {contentStyle, titleStyle} from '../style/util';
 
 export default function Lectures(props) {

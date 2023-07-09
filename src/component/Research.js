@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Button, Card, Center, HStack, Image, Stack, Text, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, } from "@chakra-ui/react";
+import { Button, Card, CardHeader, CardBody, CardFooter, Center, HStack, Image, Stack, Text, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton } from "@chakra-ui/react";
 import { MdSearch, MdKeyboardArrowRight } from "react-icons/md";
-import { ResearchStr } from "../content/contents";
+import { ResearchStr } from "../content/research";
 import research9 from '../assets/research9.jpeg'
 import { titleStyle } from '../style/util'
 import { researchStyle, researchTitleStyle, researchButtonStyle } from '../style/research'
@@ -33,21 +33,13 @@ export default function Research(props) {
             </Center>
             <Center>
                 <Stack direction={['column', 'row']} spacing='12px' mx='5'>
-                    <Card sx={researchStyle}>
-                        <Text sx={researchTitleStyle}>{ResearchStr[props.language].optics.title}</Text>
-                        <Image src={research9} />
-                        <Button leftIcon={<MdKeyboardArrowRight />} sx={researchButtonStyle} onClick={() => handleClick('optics')}>{ResearchStr[props.language].detail}</Button>
-                    </Card>
-                    <Card sx={researchStyle}>
-                        <Text sx={researchTitleStyle}>{ResearchStr[props.language].vdw.title}</Text>
-                        <Image src={research9}/>
-                        <Button leftIcon={<MdKeyboardArrowRight />} sx={researchButtonStyle} onClick={() => handleClick('vdw')}>{ResearchStr[props.language].detail}</Button>
-                    </Card>
-                    <Card sx={researchStyle}>
-                        <Text sx={researchTitleStyle}>{ResearchStr[props.language].film.title}</Text>
-                        <Image src={research9}/>
-                        <Button leftIcon={<MdKeyboardArrowRight />} sx={researchButtonStyle} onClick={() => handleClick('film')}>{ResearchStr[props.language].detail}</Button>
-                    </Card>
+                    {ResearchStr[props.language].contents.map((content) => 
+                        <Card sx={researchStyle}>
+                            <CardHeader sx={researchTitleStyle}>{content.title}</CardHeader>
+                            <CardBody><Image src={research9} /></CardBody>
+                            <CardFooter alignContent='center'><Button flex='1' leftIcon={<MdKeyboardArrowRight />} sx={researchButtonStyle} onClick={() => handleClick(content.name)}>{ResearchStr[props.language].detail}</Button></CardFooter>
+                        </Card>
+                    )}
                 </Stack>
             </Center>
             <Center>

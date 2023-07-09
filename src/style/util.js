@@ -6,12 +6,7 @@ export const titleStyle = {
 };
 
 export const subTitleStyle = {
-    textAlign: 'center',
-    fontSize: {
-        'base': 12, 
-        'lg': 18,
-    },
-    py: 4,
+    fontSize: ['lg', 'xl', '2xl'],
 }
 
 export const contentStyle = {

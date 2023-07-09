@@ -1,6 +1,6 @@
 import { Box, Center, HStack, Text, Table, Tbody, TableContainer, Td, Tr } from "@chakra-ui/react";
 import { HiOutlineNewspaper } from "react-icons/hi";
-import { NewsStr } from "../content/contents";
+import { NewsStr } from "../content/news";
 import {contentStyle, titleStyle} from '../style/util'
 
 export default function News(props) {

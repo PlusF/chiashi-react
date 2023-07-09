@@ -10,6 +10,7 @@ import Papers from './component/Papers';
 import Lectures from './component/Lectures';
 import OpenLab from './component/OpenLab';
 import Access from './component/Access';
+import Footer from './component/Footer';
 import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <BrowserRouter>
             <Navbar language={language} setLanguage={setLanguage} />
             <Routes>
-                <Route exact path="/chiashi/react/" element={<Home language={language} />} />
+                <Route exact path="/chiashi/react/home" element={<Home language={language} />} />
                 <Route path="/chiashi/react/news" element={<News language={language} />} />
                 <Route path="/chiashi/react/research" element={<Research language={language} />} />
                 <Route path="/chiashi/react/members" element={<Members language={language} />} />
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/chiashi/react/access" element={<Access language={language} />} />
             </Routes>
             </BrowserRouter>
+            <Footer />
         </ChakraProvider >
     );
 }

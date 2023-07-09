@@ -1,7 +1,7 @@
 import { Center, HStack, Text, VStack , Image} from "@chakra-ui/react";
 import { GiDiscussion } from "react-icons/gi";
 import { GrSchedules } from "react-icons/gr";
-import { OpenLabStr } from '../content/contents';
+import { OpenLabStr } from '../content/openlab';
 import { titleStyle } from '../style/util';
 import introIMG from '../assets/intro2023.jpg';
 

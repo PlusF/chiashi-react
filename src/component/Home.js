@@ -1,7 +1,6 @@
 import Title from './Title';
 import Introduction from './Introduction';
 import News from './News';
-import Access from './Access';
 
 export default function Home(props) {
     return (
@@ -9,7 +8,6 @@ export default function Home(props) {
             <Title language={props.language} />
             <Introduction language={props.language} />
             <News language={props.language} scroll={true} />
-            <Access language={props.language} />
         </>
     );
 }

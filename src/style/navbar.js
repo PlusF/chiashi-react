@@ -6,14 +6,12 @@ export const chiashiLabStyle = {
 
 export const navLinkStackStyle = {
     as: 'nav',
-    spacing: [0, 1, 2, 3],
     display: { base: 'none', md: 'flex' },
-    fontSize: {base: 16, md: 12, lg: 16},
+    fontSize: {base: 16, md: 10, lg: 16},
 }
 
 export const navLinkStyle = {
     color: 'gray',
-    mx: 2,
     rounded: 'md',
     _hover: {
         color: 'white',

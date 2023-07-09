@@ -1,6 +1,7 @@
 import { Avatar, Card, Center, Grid, HStack, Image, Link, Table, Tbody, TableContainer, Td, Tr , Text, VStack } from "@chakra-ui/react";
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { MdPeople } from "react-icons/md";
-import { MembersStr } from "../content/contents";
+import { MembersStr } from "../content/members";
 import chiashi from '../assets/members/chiashi.jpg';
 import kaneda from '../assets/members/kaneda.jpg';
 import shimada from '../assets/members/shimada.jpg';
@@ -9,7 +10,7 @@ import nishimura from '../assets/members/nishimura.jpg';
 import sakakibara from '../assets/members/sakakibara2.jpg';
 import endo from '../assets/members/endo.jpg';
 import miyata from '../assets/members/miyata.jpg';
-import { titleStyle } from '../style/util';
+import { contentStyle, titleStyle } from '../style/util';
 import { memberStyle, professorStyle, linkStyle } from '../style/members';
 
 export default function Members(props) {
@@ -39,15 +40,15 @@ export default function Members(props) {
                     <HStack>
                         <Card direction={{ base: 'column', sm: 'row' }}>
                             <Center>
-                                <Image src={chiashi} objectFit='hidden' boxSize={['150px', '200px', '250px']}/>
+                                <Image src={chiashi} objectFit='cover' width={['150px', '200px', '250px']}/>
                             </Center>
                             <VStack>
                                 <Text sx={professorStyle}>{MembersStr[props.language].professor.name}</Text>
+                                <Text sx={contentStyle} textAlign='center'>{MembersStr[props.language].professor.detail}</Text>
+                                <Text sx={contentStyle} textAlign='center'>{MembersStr[props.language].professor.email}</Text>
                                 <HStack>
                                     {MembersStr[props.language].professor.links.map((data) => {
-                                        return (
-                                            <Link isExternal sx={linkStyle} key={data.name} href={data.link}>{data.name}</Link>
-                                        )
+                                        return (<Link isExternal sx={linkStyle} key={data.name} href={data.link}>{data.name} <ExternalLinkIcon/></Link>)
                                     })}
                                 </HStack>
                             </VStack>

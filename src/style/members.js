@@ -7,10 +7,9 @@ export const professorStyle = {
     },
     py: {
         'base': 3,
-        'sm': 50,
-        'md': 75,
-        'lg': 90,
-    }
+        'sm': 35,
+    },
+    textAlign: 'center'
 }
 
 export const linkStyle = {

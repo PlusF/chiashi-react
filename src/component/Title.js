@@ -1,6 +1,6 @@
 import { Box, Stack } from '@chakra-ui/react';
 import title from '../assets/title.jpg'
-import { TitleStr } from '../content/contents';
+import { TitleStr } from '../content/util';
 
 
 export default function Navbar(props) {
