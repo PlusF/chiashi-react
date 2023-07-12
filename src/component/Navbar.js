@@ -7,6 +7,7 @@ import {
     MenuButton,
     MenuList,
     MenuItem,
+    Text,
     useColorModeValue,
 } from '@chakra-ui/react';
 import { Link, useLocation } from 'react-router-dom';
@@ -44,12 +45,17 @@ export default function Navbar(props) {
                 </Flex>
                 
                 <HStack>
-                    <Box sx={chiashiLabStyle}>Chiashi Lab.</Box>
+                    <Box>
+                        <Link to='/chiashi/react/'>
+                            <Button sx={chiashiLabStyle}><Text zIndex="1">Chiashi Lab.</Text></Button>
+                        </Link>
+                    </Box>
                     <HStack sx={navLinkStackStyle}>
                         {pages.map((data) => (
                             <Box key={data.link}>
                                 <Link to={data.link}>
-                                    <Button sx={navLinkStyle} isDisabled={location.pathname===data.link}>{data.name}</Button></Link>
+                                    <Button sx={navLinkStyle} isDisabled={location.pathname===data.link}>{data.name}</Button>
+                                </Link>
                             </Box>
                         ))}
                     </HStack>

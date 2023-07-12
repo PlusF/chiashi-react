@@ -1,4 +1,4 @@
-import { HStack, IconButton, Text, VStack } from "@chakra-ui/react";
+import { HStack, Text, VStack } from "@chakra-ui/react";
 // import { FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
