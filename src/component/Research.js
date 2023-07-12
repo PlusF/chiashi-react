@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box, Button, Card, CardHeader, CardBody, CardFooter, Center, HStack, Image, Stack, Text, useDisclosure, Collapse, Heading } from "@chakra-ui/react";
+import { Box, Button, Card, CardHeader, CardBody, CardFooter, Center, Flex, HStack, Image, Stack, Text, useDisclosure, Collapse, Heading, Spacer } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { MdSearch, MdKeyboardArrowRight } from "react-icons/md";
 import { ResearchStr } from "../content/research";
@@ -89,6 +89,7 @@ export default function Research(props) {
             <Center>
                 <Collapse in={isOpen}>
                     <ResearchDetail language={props.language} pageIndex={pageIndex} />
+                    <Flex mx='150'><Spacer/><Button onClick={onClose} p='6'>{ResearchStr[props.language].detailClose}</Button></Flex>
                 </Collapse>
             </Center>
         </>
