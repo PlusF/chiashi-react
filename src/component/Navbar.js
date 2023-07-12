@@ -17,30 +17,38 @@ import { Pages } from '../content/util';
 import { useNavigate } from 'react-router-dom';
 import { chiashiLabStyle, menuItemStyle, navLinkStackStyle, navLinkStyle } from '../style/navbar';
 
+
+// スマホ用のハンバーガーメニュー
+function HamburgerMenu(props) {
+    const navigate = useNavigate();
+
+    return (
+    <Flex alignItems={'center'} display={{ md: 'none' }}>
+        <Menu>
+            <MenuButton as={Button} leftIcon={<HamburgerIcon />} colorScheme='black' />
+            <MenuList bg='black'>
+                {props.pages.map((data) => (
+                    <MenuItem onClick={() => navigate(data.link)} key={data.link} sx={menuItemStyle} isDisabled={props.location.pathname===data.link}>{data.name}</MenuItem>
+                ))}
+            </MenuList>
+        </Menu>
+    </Flex>
+    )
+}
+
+
 export default function Navbar(props) {
     const pages = [];
     for (const key of Object.keys(Pages[props.language])) {
         pages.push({name: Pages[props.language][key], link: Pages.links[key]})
     }
-
-    const navigate = useNavigate();
     const location = useLocation();
 
     return (
     <>
         <Box bg={useColorModeValue('black')} px={4}>
             <Flex h='16' alignItems={'center'} justifyContent={'space-between'}>
-                <Flex alignItems={'center'} display={{ md: 'none' }}>
-                    <Menu>
-                        <MenuButton as={Button} leftIcon={<HamburgerIcon />} colorScheme='black' />
-                        <MenuList bg='black'>
-                            {pages.map((data) => (
-                                <MenuItem onClick={() => navigate(data.link)} key={data.link} sx={menuItemStyle} isDisabled={location.pathname===data.link}>{data.name}</MenuItem>
-                            ))}
-                        </MenuList>
-                    </Menu>
-                </Flex>
-                
+                <HamburgerMenu pages={pages} location={location} />
                 <HStack>
                     <Box>
                         <Link to='/chiashi/react/'>

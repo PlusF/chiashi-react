@@ -80,7 +80,7 @@ export default function Research(props) {
                 </HStack>
             </Center>
             <Center>
-                <Stack direction={['column', 'row']} spacing='12px'>
+                <Stack direction={['column', 'row']} spacing='12px' mx={{base: 5, sm: 0}}>
                     {ResearchStr[props.language].contents.map((content) => 
                         <ResearchCard language={props.language} key={content.name} content={content} isOpen={isOpen} pageIndex={pageIndex} handleClick={handleClick} />
                     )}
