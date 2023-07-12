@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box, Button, Card, CardHeader, CardBody, CardFooter, Center, Flex, HStack, Image, Stack, Text, useDisclosure, Collapse, Heading, Spacer, VStack } from "@chakra-ui/react";
+import { Button, Card, CardHeader, CardBody, CardFooter, Center, HStack, Image, Stack, Text, useDisclosure, Collapse, Heading, VStack } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { MdSearch, MdKeyboardArrowRight } from "react-icons/md";
 import { ResearchStr } from "../content/research";
@@ -72,9 +72,9 @@ export default function Research(props) {
 
     const handleClick = (nextIndex) => {
         // インデックスページからクリックされた場合，研究ページに飛びCollapseコンテンツを開く
-        if (props.onHome) {
-            navigate(Pages.links.research);
-        }
+        // if (props.onHome) {
+        //     navigate(Pages.links.research);
+        // }
         // クリックされた研究ページが開いている場合，閉じる
         if (isOpen && nextIndex === pageIndex) {
             onClose();
