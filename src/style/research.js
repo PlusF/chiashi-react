@@ -1,6 +1,6 @@
 export const researchStyle = {
     direction: { base: 'column' }, 
-    w: {base: 'full', sm: 150, md: 240, lg: 320},
+    minW: {base: 'full', sm: 100, md: 140, lg: 180},
 }
 
 export const researchTitleStyle = {
