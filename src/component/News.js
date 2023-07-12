@@ -16,7 +16,7 @@ export default function News(props) {
             </HStack>
         </Center>
 
-        <Box sx={scrollStyle(props.scroll)} >
+        <Box sx={scrollStyle(props.onHome)} >
             <TableContainer>
                 <Table variant='simple'>
                 <Tbody sx={contentStyle}>

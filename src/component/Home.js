@@ -10,10 +10,10 @@ export default function Home(props) {
         <>
             <Title language={props.language} />
             <Introduction language={props.language} />
-            <News language={props.language} scroll={true} />
+            <News language={props.language} onHome={true} />
             <OpenLabLink language={props.language} />
-            <Research language={props.language} />
-            <Papers language={props.language} scroll={true} />
+            <Research language={props.language} onHome={true} />
+            <Papers language={props.language} onHome={true} />
         </>
     );
 }

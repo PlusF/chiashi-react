@@ -15,7 +15,7 @@ export default function Papers(props) {
             </HStack>
         </Center>
         {/* <Text>{MainPapersStr[props.language].main}</Text> */}
-        <TableContainer sx={scrollStyle(props.scroll)}>
+        <TableContainer sx={scrollStyle(props.onHome)}>
             <Table variant='simple'>
             <Tbody sx={contentStyle}>
                 {
