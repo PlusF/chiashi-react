@@ -1,7 +1,8 @@
 export const ResearchStr = {
     'Japanese': {
         title: '研究内容',
-        detail: 'もっと見る',
+        detailOpen: 'もっと見る',
+        detailClose: '閉じる',
         contents: [
             {
                 index: 0,
@@ -28,21 +29,25 @@ export const ResearchStr = {
     },
     'English': {
         title: 'Researches',
-        detail: 'See more',
+        detailOpen: 'See more',
+        detailClose: 'Close',
         contents: [
             {
+                index: 0,
                 name: 'optics',
                 title: `(To Do: Check)Synthesis and spectroscopic measurement and characterization of nanotubes`,
                 content: `(To Do: Update)Single-walled CNTs are physically interesting because of their nanosize and quasi-one-dimensional structure, which makes their optical properties different from those of ordinary bulk materials. At the same time, the spectroscopic study of single-walled CNTs is required to establish them as an analytical tool and to apply them to optical devices. 
                 In this laboratory, we study the optical properties of single-walled CNTs by fluorescence spectroscopy, optical absorption spectroscopy, Raman scattering spectroscopy, and Rayleigh scattering spectroscopy.`,
             },
             {
+                index: 1,
                 name: 'vdw',
                 title: `(To Do: Check)Synthesis of two-dimensional layered materials such as graphene, nanostructure construction technology`,
                 content: `(To Do: Update)Graphene is a two-dimensional material consisting of a single layer of carbon atoms, and has attracted much attention in recent years, including the Nobel Prize awarded to its discoverer in 2010. Although pieces of graphene of a few micrometers can be obtained by peeling off graphite with cellophane tape, it is necessary to fabricate graphene over a larger area for industrial applications. 
                 We have synthesized single-crystalline monolayer graphene larger than 5 mm and selectively synthesized bilayer graphene with AB stacking structure using alcohol-based CVD method. We are also working on structure-controlled synthesis of graphene and other two-dimensional materials for applications such as solar cells.`,
             },
             {
+                index: 2,
                 name: 'film',
                 title: `(To Do: Check)Development of Carbon Nanotube Conductive Materials`,
                 content: `(To Do: Update)`,
