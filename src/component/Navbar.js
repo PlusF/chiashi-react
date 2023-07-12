@@ -19,11 +19,8 @@ import { chiashiLabStyle, menuItemStyle, navLinkStackStyle, navLinkStyle } from 
 
 export default function Navbar(props) {
     const pages = [];
-    for (let i = 0; i < Pages[props.language].length; i++) {
-        pages.push({
-            link: Pages.links[i],
-            name: Pages[props.language][i]
-        });
+    for (const key of Object.keys(Pages[props.language])) {
+        pages.push({name: Pages[props.language][key], link: Pages.links[key]})
     }
 
     const navigate = useNavigate();

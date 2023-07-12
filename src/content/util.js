@@ -1,7 +1,33 @@
+const root = '/chiashi/react'
+
 export const Pages = {
-    'Japanese': ['お知らせ', '研究', 'メンバー', '論文', '講義', 'オープンラボ', 'アクセス'],
-    'English': ['News', 'Research', 'Members', 'Publications', 'Lectures', 'OpenLab', 'Access'],
-    links: ['/chiashi/react/news', '/chiashi/react/research', '/chiashi/react/members', '/chiashi/react/papers', '/chiashi/react/lectures', '/chiashi/react/openlab', '/chiashi/react/access']
+    'Japanese': {
+        news: 'お知らせ', 
+        research: '研究', 
+        members: 'メンバー', 
+        papers: '論文', 
+        lectures: '講義', 
+        openlab: 'オープンラボ', 
+        access: 'アクセス',
+    },
+    'English': {
+        news: 'News',
+        research: 'Research',
+        members: 'Members',
+        papers: 'Papers',
+        lectures: 'Lectures',
+        openlab: 'Open Lab.',
+        access: 'Access',
+    },
+    links: {
+        news: root + '/news',
+        research: root + '/research',
+        members: root + '/members',
+        papers: root + '/papers',
+        lectures: root + '/lectures',
+        openlab: root + '/openlab',
+        access: root + '/access',
+    }
 }
 
 export const TitleStr = {

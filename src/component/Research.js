@@ -5,6 +5,8 @@ import { ResearchStr } from "../content/research";
 import research9 from '../assets/research9.jpeg'
 import { titleStyle } from '../style/util'
 import { researchStyle, researchTitleStyle, researchButtonStyle } from '../style/research'
+import { Link } from 'react-router-dom';
+import { Pages } from '../content/util';
 
 export default function Research(props) {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -28,7 +30,7 @@ export default function Research(props) {
             <Center sx={titleStyle}>
                 <HStack>
                     <MdSearch />
-                    <Text>{ResearchStr[props.language].title}</Text>
+                    <Link to={Pages.links.research}><Text>{ResearchStr[props.language].title}</Text></Link>
                 </HStack>
             </Center>
             <Center>

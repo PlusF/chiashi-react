@@ -1,7 +1,9 @@
 import { Center, HStack, Link, Text, Table, Tbody, TableContainer, Td, Tr, VStack } from "@chakra-ui/react";
+import { Link as RouterLink } from 'react-router-dom';
 import { FaBookOpen } from "react-icons/fa";
 import { MainPapersStr } from "../content/papers";
 import { contentStyle, titleStyle, scrollStyle } from '../style/util';
+import { Pages } from "../content/util";
 
 export default function Papers(props) {
     return (
@@ -9,7 +11,7 @@ export default function Papers(props) {
         <Center sx={titleStyle}>
             <HStack>
                 <FaBookOpen />
-                <Text>{MainPapersStr[props.language].title}</Text>
+                <RouterLink to={Pages.links.papers}><Text>{MainPapersStr[props.language].title}</Text></RouterLink>
             </HStack>
         </Center>
         {/* <Text>{MainPapersStr[props.language].main}</Text> */}

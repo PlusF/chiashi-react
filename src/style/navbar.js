@@ -11,14 +11,15 @@ export const chiashiLabStyle = {
         display: "inline-block",
         position: "absolute",
         top: "0",
-        width: "100%",
+        width: "0%",
         height: "100%",
         backgroundColor: "gray.800",
-        transition: "0.5s",
-        right: "100%" //最初は隠しておく
+        transition: "0.3s",
     },
     _hover: {
-        _before: { right: "0" } //ホバーしたら出てくる
+        _before: { 
+            width: "100%",
+         }
     },
     _active: {
         bg: 'black',

@@ -6,6 +6,7 @@ import { OpenLabStr } from '../content/openlab';
 import { titleStyle } from '../style/util';
 import { openLabStyle } from "../style/openlab";
 import introIMG from '../assets/intro2023.jpg';
+import { Pages } from "../content/util";
 
 
 export function OpenLabLink(props) {
@@ -14,7 +15,7 @@ export function OpenLabLink(props) {
         <Center sx={titleStyle}>
             <HStack>
                 <GiDiscussion />
-                <Text>{OpenLabStr[props.language].title}</Text>
+                <Link to={Pages.links.openlab}><Text>{OpenLabStr[props.language].title}</Text></Link>
             </HStack>
         </Center>
         <Center>

@@ -1,8 +1,8 @@
 export const openLabStyle = { 
     bg: 'purple.400',
     color: 'white',
-    w: {base: 300, md: 400, lg: 500},
-    h: {base: 50, md: 60, lg: 70},
+    w: {base: 300, lg: 500},
+    h: {base: 50, lg: 70},
     px: 4, 
     fontSize: {base: 16, md: 18, lg: 20},
     position: "relative",

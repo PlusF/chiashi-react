@@ -1,7 +1,9 @@
 import { Box, Center, HStack, Text, Table, Tbody, TableContainer, Td, Tr } from "@chakra-ui/react";
+import { Link } from 'react-router-dom';
 import { HiOutlineNewspaper } from "react-icons/hi";
 import { NewsStr } from "../content/news";
 import {contentStyle, titleStyle, scrollStyle} from '../style/util'
+import { Pages } from "../content/util";
 
 export default function News(props) {
 
@@ -10,7 +12,7 @@ export default function News(props) {
         <Center sx={titleStyle}>
             <HStack>
                 <HiOutlineNewspaper />
-                <Text>{NewsStr[props.language].title}</Text>
+                <Link to={Pages.links.news}><Text>{NewsStr[props.language].title}</Text></Link>
             </HStack>
         </Center>
 
