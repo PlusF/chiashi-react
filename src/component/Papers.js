@@ -1,7 +1,7 @@
 import { Center, HStack, Link, Text, Table, Tbody, TableContainer, Td, Tr, VStack } from "@chakra-ui/react";
 import { FaBookOpen } from "react-icons/fa";
 import { MainPapersStr } from "../content/papers";
-import {contentStyle, titleStyle} from '../style/util';
+import { contentStyle, titleStyle, scrollStyle } from '../style/util';
 
 export default function Papers(props) {
     return (
@@ -13,7 +13,7 @@ export default function Papers(props) {
             </HStack>
         </Center>
         {/* <Text>{MainPapersStr[props.language].main}</Text> */}
-        <TableContainer>
+        <TableContainer sx={scrollStyle(props.scroll)}>
             <Table variant='simple'>
             <Tbody sx={contentStyle}>
                 {

@@ -1,6 +1,7 @@
 export const OpenLabStr = {
     'Japanese': {
         title: 'オープンラボ',
+        button: 'オープンラボ特設ページを見る',
         poster: '千足研究室紹介ポスター',
         schedule_title: '開催日程',
         schedule: [
@@ -13,6 +14,7 @@ export const OpenLabStr = {
     },
     'English': {
         title: 'Open Lab.',
+        button: 'Visit Open Lab. Page',
         poster: 'Poster Introducing Chiashi Lab.',
         schedule_title: 'Schedule',
         schedule: [

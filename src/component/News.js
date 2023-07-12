@@ -1,10 +1,9 @@
 import { Box, Center, HStack, Text, Table, Tbody, TableContainer, Td, Tr } from "@chakra-ui/react";
 import { HiOutlineNewspaper } from "react-icons/hi";
 import { NewsStr } from "../content/news";
-import {contentStyle, titleStyle} from '../style/util'
+import {contentStyle, titleStyle, scrollStyle} from '../style/util'
 
 export default function News(props) {
-    const scrollStyle = props.scroll ? {overflowY:"auto", maxHeight: "200px"} : {};
 
     return (
         <>
@@ -15,7 +14,7 @@ export default function News(props) {
             </HStack>
         </Center>
 
-        <Box sx={scrollStyle} >
+        <Box sx={scrollStyle(props.scroll)} >
             <TableContainer>
                 <Table variant='simple'>
                 <Tbody sx={contentStyle}>

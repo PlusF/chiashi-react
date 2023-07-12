@@ -20,3 +20,7 @@ export const contentStyle = {
         'lg': 8,
     },
 }
+
+export const scrollStyle = (scroll) => {
+    return scroll ? {overflowY:"auto", maxHeight: "200px"} : {}
+};
