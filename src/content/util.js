@@ -7,8 +7,8 @@ export const Pages = {
         members: 'メンバー', 
         papers: '論文', 
         lectures: '講義', 
-        openlab: 'オープンラボ', 
         access: 'アクセス',
+        openlab: 'オープンラボ', 
     },
     'English': {
         news: 'News',
@@ -16,8 +16,8 @@ export const Pages = {
         members: 'Members',
         papers: 'Papers',
         lectures: 'Lectures',
-        openlab: 'Open Lab.',
         access: 'Access',
+        openlab: 'Open Lab.',
     },
     links: {
         news: root + '/news',
@@ -25,8 +25,8 @@ export const Pages = {
         members: root + '/members',
         papers: root + '/papers',
         lectures: root + '/lectures',
-        openlab: root + '/openlab',
         access: root + '/access',
+        openlab: root + '/openlab',
     }
 }
 

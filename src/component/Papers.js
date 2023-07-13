@@ -4,15 +4,19 @@ import { FaBookOpen } from "react-icons/fa";
 import { MainPapersStr } from "../content/papers";
 import { contentStyle, titleStyle, scrollStyle } from '../style/util';
 import { Pages } from "../content/util";
+import { MdLink } from "react-icons/md";
 
 export default function Papers(props) {
     return (
         <>
         <Center sx={titleStyle}>
-            <HStack>
-                <FaBookOpen />
-                <RouterLink to={Pages.links.papers}><Text>{MainPapersStr[props.language].title}</Text></RouterLink>
-            </HStack>
+            <RouterLink to={Pages.links.papers}>
+                <HStack>
+                    <FaBookOpen />
+                    <Text>{MainPapersStr[props.language].title}</Text>
+                    {props.onHome && <MdLink/>}
+                </HStack>
+            </RouterLink>
         </Center>
         {/* <Text>{MainPapersStr[props.language].main}</Text> */}
         <TableContainer sx={scrollStyle(props.onHome)}>

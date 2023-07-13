@@ -2,6 +2,7 @@ import { Box, Button, Center, HStack, Text, VStack , Image} from "@chakra-ui/rea
 import { Link } from 'react-router-dom';
 import { GiDiscussion } from "react-icons/gi";
 import { GrSchedules } from "react-icons/gr";
+import { MdLink } from "react-icons/md";
 import { OpenLabStr } from '../content/openlab';
 import { titleStyle } from '../style/util';
 import { openLabStyle } from "../style/openlab";
@@ -13,10 +14,13 @@ export function OpenLabLink(props) {
     return (
         <>
         <Center sx={titleStyle}>
-            <HStack>
+            <Link to={Pages.links.openlab}>
+                <HStack>
                 <GiDiscussion />
-                <Link to={Pages.links.openlab}><Text>{OpenLabStr[props.language].title}</Text></Link>
-            </HStack>
+                    <Text>{OpenLabStr[props.language].title}</Text>
+                    <MdLink/>
+                </HStack>
+            </Link>
         </Center>
         <Center>
             <Box py='30'>

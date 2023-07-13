@@ -15,7 +15,7 @@ import { HamburgerIcon } from '@chakra-ui/icons';
 import { MdOutlineLanguage } from "react-icons/md";
 import { Pages } from '../content/util';
 import { useNavigate } from 'react-router-dom';
-import { chiashiLabStyle, menuItemStyle, navLinkStackStyle, navLinkStyle } from '../style/navbar';
+import { chiashiLabStyle, menuItemStyle, navLinkStackStyle, navLinkStyle, languageStyle } from '../style/navbar';
 
 
 // スマホ用のハンバーガーメニュー
@@ -67,7 +67,7 @@ export default function Navbar(props) {
                 </HStack>
                 <Flex alignItems={'center'}>
                     <Menu>
-                        <MenuButton as={Button} leftIcon={<MdOutlineLanguage />} fontSize={{base: 16, md: 10, lg: 16}} w={{base: 130, md: 90, lg: 140}}>{props.language}</MenuButton>
+                        <MenuButton as={Button} leftIcon={<MdOutlineLanguage />} sx={languageStyle}>{props.language}</MenuButton>
                         <MenuList>
                             <MenuItem onClick={() => props.setLanguage("Japanese")}>Japanese</MenuItem>
                             <MenuItem onClick={() => props.setLanguage("English")}>English</MenuItem>

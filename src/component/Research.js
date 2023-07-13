@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { Button, Card, CardHeader, CardBody, CardFooter, Center, HStack, Image, Stack, Text, useDisclosure, Collapse, Heading, VStack } from "@chakra-ui/react";
-import { useNavigate } from "react-router-dom";
-import { MdSearch, MdKeyboardArrowRight } from "react-icons/md";
+import { Box, Button, Card, CardHeader, CardBody, CardFooter, Center, HStack, Image, Stack, Text, useDisclosure, Collapse, Heading, VStack } from "@chakra-ui/react";
+import { MdSearch, MdKeyboardArrowRight, MdLink } from "react-icons/md";
 import { ResearchStr } from "../content/research";
 import opticsImg from '../assets/optics.png';
 import vdwImg from '../assets/vdw.png';
@@ -22,34 +21,35 @@ function ResearchDetail(props) {
         <Image src={filmImg} />
     ]
     return (
-        <>
+        <Box mx={{base: 0, sm: 100}}>
             <Heading py={[5, 30]}>{content.title}</Heading>
             <Text sx={contentStyle}>{content.content}</Text>
-            {images[content.index]}
-        </>
+            <Center>{images[content.index]}</Center>
+        </Box>
     )
 }
 
 
-function ResearchCard(props) {
+const images = [
+    opticsImg,
+    vdwImg,
+    filmImg,
+]
+
+
+// スマホ用表示
+function ResearchCardOnColumn(props) {
     const content = props.content
-    const images = [
-        opticsImg,
-        vdwImg,
-        filmImg,
-    ]
     return (
     <Card sx={researchStyle} variant={props.isOpen && props.pageIndex === content.index ? 'filled': 'outline'}>
         <CardHeader sx={researchTitleStyle}>{content.title}</CardHeader>
         <Collapse in={!props.isOpen || props.pageIndex === content.index }>
-            
             <CardBody>
                 <VStack>
                     <Center><Image src={images[content.index]}></Image></Center>
                     <Center>
                         <Collapse in={props.isOpen}>
                             <ResearchDetail language={props.language} pageIndex={props.pageIndex}/>
-                            {/* <Flex mx='150'><Spacer/><Button onClick={onClose} p='6'>{ResearchStr[props.language].detailClose}</Button></Flex> */}
                         </Collapse>
                     </Center>
                 </VStack>
@@ -65,16 +65,31 @@ function ResearchCard(props) {
 }
 
 
+// PC用表示
+function ResearchCardOnRow(props) {
+    const content = props.content
+    return (
+        <Card sx={researchStyle} variant={props.isOpen && props.pageIndex === content.index ? 'filled': 'outline'}>
+            <CardHeader sx={researchTitleStyle}>{content.title}</CardHeader>
+            <CardBody>
+                <VStack>
+                    <Center><Image src={images[content.index]}></Image></Center>
+                </VStack>
+            </CardBody>
+            <CardFooter alignContent='center'>
+                <Button flex='1' leftIcon={<MdKeyboardArrowRight />} sx={researchButtonStyle} bg={(props.isOpen && props.pageIndex === content.index ) ? 'gray.400': 'gray.200'} onClick={() => props.handleClick(content.index)}>
+                    {(props.isOpen && props.pageIndex === content.index ) ? ResearchStr[props.language].detailClose : ResearchStr[props.language].detailOpen}
+                </Button>
+            </CardFooter>
+        </Card>
+    )
+}
+
 export default function Research(props) {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [pageIndex, setPageIndex] = useState(0);
-    const navigate = useNavigate();
 
     const handleClick = (nextIndex) => {
-        // インデックスページからクリックされた場合，研究ページに飛びCollapseコンテンツを開く
-        // if (props.onHome) {
-        //     navigate(Pages.links.research);
-        // }
         // クリックされた研究ページが開いている場合，閉じる
         if (isOpen && nextIndex === pageIndex) {
             onClose();
@@ -87,17 +102,33 @@ export default function Research(props) {
     return (
         <>
             <Center sx={titleStyle}>
-                <HStack>
-                    <MdSearch />
-                    <Link to={Pages.links.research}><Text>{ResearchStr[props.language].title}</Text></Link>
-                </HStack>
+                <Link to={Pages.links.research}>
+                    <HStack>
+                        <MdSearch />
+                        <Text>{ResearchStr[props.language].title}</Text>
+                        {props.onHome && <MdLink/>}
+                    </HStack>
+                </Link>
             </Center>
-            <Center>
-                <Stack direction={['column', 'row']} spacing={{base: 5, md: 5}} mx={{base: 5, sm: 20, md: 100}}>
+             {/** スマホ用表示 */}
+            <Center display={{base: 'block', sm: 'none'}}>
+                <Stack direction='column' spacing='5' mx='5'>
                     {ResearchStr[props.language].contents.map((content) => 
-                        <ResearchCard language={props.language} key={content.name} content={content} isOpen={isOpen} pageIndex={pageIndex} handleClick={handleClick} />
+                        <ResearchCardOnColumn language={props.language} key={content.name} content={content} isOpen={isOpen} pageIndex={pageIndex} handleClick={handleClick} />
                     )}
                 </Stack>
+            </Center>
+            {/** PC用表示 */}
+            <Center display={{base: 'none', sm: 'block'}}>
+                <Stack direction='row' spacing='5' mx='30'>
+                    {ResearchStr[props.language].contents.map((content) =>
+                        <ResearchCardOnRow language={props.language} key={content.name} content={content} isOpen={isOpen} pageIndex={pageIndex} handleClick={handleClick} />
+                    )}
+                </Stack>
+                <Collapse in={isOpen}>
+                    <ResearchDetail language={props.language} pageIndex={pageIndex}/>
+                    <Center><Button onClick={onClose} mt='10'>{ResearchStr[props.language].detailClose}</Button></Center>
+                </Collapse>
             </Center>
         </>
     )

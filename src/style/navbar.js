@@ -1,3 +1,4 @@
+// Chiashi Lab. のロゴにホバーしたときのアニメーション設定等
 export const chiashiLabStyle = { 
     bg: 'black',
     color: 'white',
@@ -26,12 +27,14 @@ export const chiashiLabStyle = {
     }
 }
 
+// ナビゲーションバーのスタイル
 export const navLinkStackStyle = {
     as: 'nav',
     display: { base: 'none', md: 'flex' },
     fontSize: {base: 16, md: 10, lg: 16},
 }
 
+// ナビゲーションバーのリンクのスタイル
 export const navLinkStyle = {
     bg: 'black',
     color: 'gray',
@@ -46,6 +49,7 @@ export const navLinkStyle = {
     fontSize: {md: 12, lg: 15},
 }
 
+// ハンバーガーメニューのスタイル
 export const menuItemStyle = {
     bg: 'black',
     color: 'gray', 
@@ -53,4 +57,10 @@ export const menuItemStyle = {
         color:'white', 
         bg:'gray.900'
     }
+}
+
+// 言語切り替えボタンのスタイル
+export const languageStyle = {
+    fontSize: {base: 16, md: 10, lg: 16},
+    w: {base: 130, md: 90, lg: 140},
 }

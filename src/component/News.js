@@ -4,16 +4,20 @@ import { HiOutlineNewspaper } from "react-icons/hi";
 import { NewsStr } from "../content/news";
 import {contentStyle, titleStyle, scrollStyle} from '../style/util'
 import { Pages } from "../content/util";
+import { MdLink } from "react-icons/md";
 
 export default function News(props) {
 
     return (
         <>
         <Center sx={titleStyle}>
-            <HStack>
-                <HiOutlineNewspaper />
-                <Link to={Pages.links.news}><Text>{NewsStr[props.language].title}</Text></Link>
-            </HStack>
+                <Link to={Pages.links.news}>
+                        <HStack>
+                            <HiOutlineNewspaper />
+                            <Text>{NewsStr[props.language].title}</Text>
+                            {props.onHome && <MdLink/>}
+                    </HStack>
+                </Link>
         </Center>
 
         <Box sx={scrollStyle(props.onHome)} >

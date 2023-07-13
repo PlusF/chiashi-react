@@ -2,8 +2,9 @@ import Title from './Title';
 import Introduction from './Introduction';
 import News from './News';
 import Research from './Research';
-import { OpenLabLink } from './OpenLab';
+import Members from './Members';
 import Papers from './Papers';
+import { OpenLabLink } from './OpenLab';
 
 export default function Home(props) {
     return (
@@ -13,6 +14,7 @@ export default function Home(props) {
             <News language={props.language} onHome={true} />
             <OpenLabLink language={props.language} />
             <Research language={props.language} onHome={true} />
+            <Members language={props.language} onHome={true} />
             <Papers language={props.language} onHome={true} />
         </>
     );
