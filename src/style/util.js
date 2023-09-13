@@ -2,18 +2,23 @@ export const titleStyle = {
     textAlign: 'center',
     fontSize: ['xl', '2xl', '3xl'],
     fontFamily: 'serif',
-    py: 4,
+    pt: 20,
+    pb: 10,
 };
 
 export const subTitleStyle = {
-    fontSize: ['lg', 'xl', '2xl'],
+    fontSize: {
+        'base': 20, 
+        'sm': 15,
+        'lg': 20,
+    },
 }
 
 export const contentStyle = {
     fontSize: {
-        'base': 15, 
+        'base': 16, 
         'sm': 12,
-        'lg': 15,
+        'lg': 16,
     },
     px: {
         'base': 2, 

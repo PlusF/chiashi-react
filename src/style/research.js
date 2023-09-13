@@ -6,16 +6,16 @@ export const researchStyle = {
 export const researchTitleStyle = {
     textAlign: 'center',
     fontSize: {
-        'base': 15, 
-        'sm': 7,
-        'md': 10,
-        'lg': 14,
+        'base': 16, 
+        'sm': 12,
+        'lg': 16,
     },
 }
 
 export const researchButtonStyle = {
     fontSize: {
-        'base': 12,
-        'lg': 15,
+        'base': 16, 
+        'sm': 12,
+        'lg': 16,
     },
 }
