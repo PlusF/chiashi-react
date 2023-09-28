@@ -32,22 +32,20 @@ export const ResearchStr = {
             {
                 index: 0,
                 name: 'optics',
-                title: `(To Do: Check)Synthesis and spectroscopic measurement and characterization of nanotubes`,
-                content: `(To Do: Update)Single-walled CNTs are physically interesting because of their nanosize and quasi-one-dimensional structure, which makes their optical properties different from those of ordinary bulk materials. At the same time, the spectroscopic study of single-walled CNTs is required to establish them as an analytical tool and to apply them to optical devices. 
-                In this laboratory, we study the optical properties of single-walled CNTs by fluorescence spectroscopy, optical absorption spectroscopy, Raman scattering spectroscopy, and Rayleigh scattering spectroscopy.`,
+                title: `Synthesis and spectroscopic measurement and characterization of nanotubes`,
+                content: `Single-walled CNTs are physically interesting because of their nanosize and quasi-one-dimensional structure, which makes their optical properties different from those of ordinary bulk materials. At the same time, the spectroscopic study of single-walled CNTs is required to establish them as an analytical tool and to apply them to optical devices. In our laboratory, we study the optical properties of single-walled CNTs by fluorescence spectroscopy, optical absorption spectroscopy, Raman scattering spectroscopy, and Rayleigh scattering spectroscopy. In particular, we focus on the inner space of CNTs, which is a hollow space, and study the molecular entry/exit, confinement, and transport phenomena, as well as the physical and chemical phenomena of materials confined on a nanoscale.`,
             },
             {
                 index: 1,
                 name: 'vdw',
-                title: `(To Do: Check)Synthesis of two-dimensional layered materials such as graphene, nanostructure construction technology`,
-                content: `(To Do: Update)Graphene is a two-dimensional material consisting of a single layer of carbon atoms, and has attracted much attention in recent years, including the Nobel Prize awarded to its discoverer in 2010. Although pieces of graphene of a few micrometers can be obtained by peeling off graphite with cellophane tape, it is necessary to fabricate graphene over a larger area for industrial applications. 
-                We have synthesized single-crystalline monolayer graphene larger than 5 mm and selectively synthesized bilayer graphene with AB stacking structure using alcohol-based CVD method. We are also working on structure-controlled synthesis of graphene and other two-dimensional materials for applications such as solar cells.`,
+                title: `Synthesis of two-dimensional layered materials such as graphene, nanostructure construction technology`,
+                content: `Graphene is a two-dimensional material consisting of a single layer of carbon atoms. Although pieces of graphene of a few micrometers can be obtained by exfoliating graphite with cellophane tape, it is necessary to fabricate graphene over a larger area for industrial applications. We are aiming to synthesize large-area single-crystal monolayer graphene and stacked structures of boron hexagonal nitride (h-BN) and transition metal dicargogenite (TDMC), which have structures similar to graphene, using CVD methods, and to construct various nanoscale structures by transfer methods.`,
             },
             {
                 index: 2,
                 name: 'film',
-                title: `(To Do: Check)Development of Carbon Nanotube Conductive Materials`,
-                content: `(To Do: Update)`,
+                title: `Development of Carbon Nanotube Conductive Materials`,
+                content: `Although CNTs have excellent electrical conductivity, it is known that the resistance of CNTs increases when a large number of CNTs are formed into a bundle of fibers or a thin film of CNTs gathered in a planar shape. Therefore, we are searching for new forming techniques to obtain fibers and thin films that maintain high electrical conductivity. Low-resistance CNT fibers can be used as a substitute for copper wires, and CNT thin films can be applied as flexible transparent conductive films.`,
             },
         ], 
     }
