@@ -11,6 +11,24 @@ export const MainPapersStr = {
     },
     contents: [
         {
+            author: "R. Xiang†, T. Inoue, Y. Zheng, A. Kumamoto, Y. Qian, Y. Sato, M. Liu, D. Tang, D. Gokhale, J. Guo, K. Hisama, S. Yotsumoto, T. Ogamoto, H. Arai, Y. Kobayashi, H. Zhang, B. Hou, A. Anisimov, M. Maruyama, Y. Miyata, S. Okada, S. Chiashi, Y. Li, J. Kong, E. I. Kauppinen, Y. Ikuhara, K. Suenaga, S. Maruyama†,",
+            title: 'One-dimensional van der Waals heterostructures',
+            journal: 'Science, 367, 537-542 (2020)',
+            doi: 'http://dx.doi.org/10.1126/science.aaz2570',
+        },
+        {
+            author: 'H. Arai, T. Inoue†, R. Xiang, S. Maruyama†, S. Chiashi†,',
+            title: 'Non-catalytic heteroepitaxial growth of aligned, large-sized hexagonal boron nitride single-crystals on graphite',
+            journal: 'Nanoscale, 12, 10399-10406 (2020)',
+            doi: 'http://dx.doi.org/10.1039/D0NR00849D',
+        },
+        {
+            author: 'S. Chiashi†, Y. Saito, T. Kato, S. Konabe, S. Okada, T. Yamamoto, Y. Homma†,',
+            title: 'Confinement Effect of Sub-Nanometer Difference on Melting Point of Ice-Nanotubes Measured by Photoluminescence Spectroscopy',
+            journal: 'ACS Nano, 13, 1177-1182 (2019)',
+            doi: 'http://dx.doi.org/10.1021/acsnano.8b06041',
+        },
+        {
             author: 'K. Otsuka, T. Inoue, E. Maeda, R. Kometani, S. Chiashi, S. Maruyama†,',
             title: 'On-chip sorting of long semiconducting carbon nanotubes for multiple transistors along an identical array',
             journal: 'ACS Nano, 11, 11497-11504 (2017)',

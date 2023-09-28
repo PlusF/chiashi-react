@@ -2,9 +2,12 @@ import { useState } from 'react';
 import { Box, Button, Card, CardHeader, CardBody, CardFooter, Center, HStack, Image, Stack, Text, useDisclosure, Collapse, Heading, VStack } from "@chakra-ui/react";
 import { MdSearch, MdKeyboardArrowRight, MdLink } from "react-icons/md";
 import { ResearchStr } from "../content/research";
-import opticsImg from '../assets/optics.png';
-import vdwImg from '../assets/vdw.png';
-import filmImg from '../assets/film.png';
+import opticsImgThum from '../assets/optics_thum.png';
+import vdwImgThum from '../assets/vdw_thum.png';
+import filmImgThum from '../assets/film_thum.png';
+import opticsImg from '../assets/optics_detail.png';
+import vdwImg from '../assets/vdw_detail.png';
+import filmImg from '../assets/film_detail.png';
 import { contentStyle, titleStyle } from '../style/util'
 import { researchStyle, researchTitleStyle, researchButtonStyle } from '../style/research'
 import { Link } from 'react-router-dom';
@@ -30,10 +33,10 @@ function ResearchDetail(props) {
 }
 
 
-const images = [
-    opticsImg,
-    vdwImg,
-    filmImg,
+const imagesThum = [
+    opticsImgThum,
+    vdwImgThum,
+    filmImgThum,
 ]
 
 
@@ -46,7 +49,7 @@ function ResearchCardOnColumn(props) {
         <Collapse in={!props.isOpen || props.pageIndex === content.index }>
             <CardBody>
                 <VStack>
-                    <Center><Image src={images[content.index]}></Image></Center>
+                    <Center><Image src={imagesThum[content.index]}></Image></Center>
                     <Center>
                         <Collapse in={props.isOpen}>
                             <ResearchDetail language={props.language} pageIndex={props.pageIndex}/>
@@ -73,7 +76,7 @@ function ResearchCardOnRow(props) {
             <CardHeader sx={researchTitleStyle}>{content.title}</CardHeader>
             <CardBody>
                 <VStack>
-                    <Center><Image src={images[content.index]}></Image></Center>
+                    <Center><Image src={imagesThum[content.index]}></Image></Center>
                 </VStack>
             </CardBody>
             <CardFooter alignContent='center'>
