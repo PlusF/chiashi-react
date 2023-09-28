@@ -1,8 +1,8 @@
-import { Center, HStack, Link, Text, Table, Tbody, TableContainer, Td, Tr, VStack } from "@chakra-ui/react";
+import { Center, HStack, Link, Text, SimpleGrid, Card } from "@chakra-ui/react";
 import { Link as RouterLink } from 'react-router-dom';
 import { FaBookOpen } from "react-icons/fa";
 import { MainPapersStr } from "../content/papers";
-import { contentStyle, titleStyle, scrollStyle } from '../style/util';
+import { titleStyle} from '../style/util';
 import { Pages } from "../content/util";
 import { MdLink } from "react-icons/md";
 
@@ -18,51 +18,19 @@ export default function Papers(props) {
                 </HStack>
             </RouterLink>
         </Center>
-        {/* <Text>{MainPapersStr[props.language].main}</Text> */}
-        <TableContainer sx={scrollStyle(props.onHome)}>
-            <Table variant='simple'>
-            <Tbody sx={contentStyle}>
+        <SimpleGrid spacing={4} px={{base: 10, sm: 10, md: 20, lg: 30}} columns={{base: 1, md: 2, lg: 3}}>
                 {
                     MainPapersStr.contents.map((data) => {
                         return (
-                            <Tr key={data.title}>
-                                <Td>
-                                    <VStack>
-                                        <Text>{data.author}</Text>
-                                        <Text>"{data.title},"</Text>
-                                        <Text>{data.journal}. <Link isExternal href={data.doi} color='teal.500'>{data.doi}</Link></Text>
-                                    </VStack>
-                                </Td>
-                            </Tr>
+                            <Card variant='elevated' padding={{base: 5, sm: 5, md: 15, lg: 10}}>
+                                <Text>{data.author}</Text>
+                                <Text fontWeight='bold'>"{data.title},"</Text>
+                                <Text>{data.journal}. <Link isExternal href={data.doi} color='teal.500'>{data.doi}</Link></Text>
+                            </Card>
                         );
                     })
                 }
-                </Tbody>
-            </Table>
-        </TableContainer>
-
-        {/* <Text>{MainPapersStr[props.language].recent}</Text>
-        <TableContainer>
-            <Table variant='simple'>
-            <Tbody sx={contentStyle}>
-                {
-                    MainPapersStr.contents.map((data) => {
-                        return (
-                            <Tr key={data.title}>
-                                <Td>
-                                    <VStack>
-                                        <Text>{data.author}</Text>
-                                        <Text>"{data.title},"</Text>
-                                        <Text>{data.journal}. <Link isExternal href={data.doi}>{data.doi}</Link></Text>
-                                    </VStack>
-                                </Td>
-                            </Tr>
-                        );
-                    })
-                }
-                </Tbody>
-            </Table>
-        </TableContainer> */}
+        </SimpleGrid>
         </>
     );
 }
