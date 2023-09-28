@@ -3,6 +3,10 @@ export const NewsStr = {
         title: 'ニュース',
         content: [
             {
+                date: '2023/09/28',
+                news: '2023年度のオープンラボの日程を更新しました．'
+            },
+            {
                 date: '2023/09/04',
                 news: 'M2の嶋田君が第65回フラーレン・ナノチューブ･グラフェン総合シンポジウム（FNTG65）で発表を行いました．'
             },
@@ -31,6 +35,10 @@ export const NewsStr = {
     'English': {
         title: 'News',
         content: [
+            {
+                date: '2023/09/28',
+                news: 'The schedule for Open Lab. has been updated.'
+            },
             {
                 date: '2023/09/04',
                 news: 'M2 Yusaku Shimada gave a presentation at the 65th Fullerenes-Nanotubes-Graphene General Symposium (FNTG65).'
