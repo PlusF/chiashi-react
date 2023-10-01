@@ -1,4 +1,4 @@
-const root = '/chiashi/react'
+const root = '/chiashi/'
 
 export const Pages = {
     'Japanese': {
@@ -20,13 +20,13 @@ export const Pages = {
         openlab: 'Open Lab.',
     },
     links: {
-        news: root + '/news',
-        research: root + '/research',
-        members: root + '/members',
-        papers: root + '/papers',
-        lectures: root + '/lectures',
-        access: root + '/access',
-        openlab: root + '/openlab',
+        news: root + 'news',
+        research: root + 'research',
+        members: root + 'members',
+        papers: root + 'papers',
+        lectures: root + 'lectures',
+        access: root + 'access',
+        openlab: root + 'openlab',
     }
 }
 
