@@ -27,7 +27,7 @@ export const PapersStr = {
         {
             author: 'R. Ishimaru, K. Otsuka†, T. Inoue, S. Chiashi, S. Maruyama†,',
             title: 'Carbon dioxide triggers carbon nanotube nucleation: isotope labeling study on the growth process of individual nanotubes,',
-            journal: 'ECSJ.SolidStateSc., 11, 071002(2022).',
+            journal: 'ECS J. Solid State Sc., 11, 071002(2022).',
             doi: 'http://dx.doi.org/10.1149/2162-8777/ac7c38',
             year: 2022,
             main: false,
@@ -35,7 +35,7 @@ export const PapersStr = {
         {
             author: 'Y. Homma, T. Inaba, and S. Chiashi,',
             title: 'Chapter: Suspended Carbon Nanotubes for Quantum Hybrid Electronics (著書),',
-            journal: 'QuantumHybridElectronicsandMaterialsC, *, *(2022).',
+            journal: 'Quantum Hybrid Electronics and Materials, *, *(2022).',
             doi: 'http://dx.doi.org/10.1007/s00339-023-06481-9',
             year: 2022,
             main: false,
@@ -43,7 +43,7 @@ export const PapersStr = {
         {
             author: 'K. Otsuka†, R. Ishimaru, A. Kobayashi, T. Inoue, R. Xiang, S. Chiashi, Y. K. Kato, S. Maruyama†,',
             title: 'Universal Map of Gas-Dependent Kinetic Selectivity in Carbon Nanotube Growth,',
-            journal: 'ACSNano, 16, 5627-5635(2022).',
+            journal: 'ACS Nano, 16, 5627-5635(2022).',
             doi: 'http://dx.doi.org/10.1021/acsnano.1c10569',
             year: 2022,
             main: false,
@@ -51,7 +51,7 @@ export const PapersStr = {
         {
             author: 'M. Kitajima, I. Katayama, Ø. Sele Handegård, T. Nagaao, S. Chiashi, S. Maruyama, J. Takeda,',
             title: 'Fano resonance of optical phonons in a multilayer graphene stack,',
-            journal: 'Jpn.J.Appl.Phys., 60, 122006-1-122006-6(2021).',
+            journal: 'Jpn. J. Appl. Phys., 60, 122006-1-122006-6(2021).',
             doi: 'http://dx.doi.org/10.35848/1347-4065/ac2c29',
             year: 2021,
             main: false,
@@ -59,7 +59,7 @@ export const PapersStr = {
         {
             author: 'M. G. Burdanova, M. Liu, M. Staniforth, Y. Zheng, R. Xiang, S. Chiashi, A. Anisimov, E. I. Kauppinen, S. Maruyama, J. Lloyd-Hughes†,',
             title: 'Intertube Excitonic Coupling in Nanotube Van der Waals Heterostructures,',
-            journal: 'Adv.Func.Mater., 2021, 2104969-1-2104969-8(2021).',
+            journal: 'Adv. Func. Mater., 2021, 2104969-1-2104969-8(2021).',
             doi: 'http://dx.doi.org/10.1002/adfm.202104969',
             year: 2021,
             main: false,
@@ -67,7 +67,7 @@ export const PapersStr = {
         {
             author: 'Y. Zheng, A. Kumamoto, K. Hisama, K. Otsuka, G. Wickerson, Y. Sato, M. Liu, T. Inoue, S. Chiashi, D.-M. Tang, Q. Zhang, A. Anisimov, E. I. Kauppinen, Y. Li, K. Suenaga, Y. Ikuhara, S. Maruyama, R. Xiang,',
             title: 'One-dimensional van der Waals heterostructures: Growth mechanism and handedness correlation revealed by nondestructive TEM,',
-            journal: 'Proc.Natl.Acad.Sci., 118, e2107295118(2021).',
+            journal: 'Proc. Natl. Acad. Sci., 118, e2107295118(2021).',
             doi: 'http://dx.doi.org/10.1073/pnas.2107295118',
             year: 2021,
             main: false,
@@ -75,7 +75,7 @@ export const PapersStr = {
         {
             author: 'J. Cha, K. Hasegawa, J. Lee, I. Y. Stein, A.Miura, S. Noda, J. Shiomi, S. Chiashi†, B. L. Wardle†, S. Maruyama†,',
             title: 'Thermal properties of single-walled carbon nanotube forests with various volume fractions ,',
-            journal: 'Int.J.HeatMassTransfer, 171, 121076-1-121076-6(2021).',
+            journal: 'Int. J. Heat Mass Transfer, 171, 121076-1-121076-6(2021).',
             doi: 'http://dx.doi.org/10.1016/j.ijheatmasstransfer.2021.121076',
             year: 2021,
             main: false,
@@ -83,7 +83,7 @@ export const PapersStr = {
         {
             author: 'K. Hisama†, M. Maruyama, S. Chiashi, S. Maruyama†, S. Okada†,',
             title: 'Indirect-to-direct band gap crossover of single walled MoS2 nanotubes,',
-            journal: 'Jpn.J.Appl.Phys., 60, 065002-1-065002-5(2021).',
+            journal: 'Jpn. J. Appl. Phys., 60, 065002-1-065002-5(2021).',
             doi: 'http://dx.doi.org/10.35848/1347-4065/abffc6',
             year: 2021,
             main: false,
@@ -99,7 +99,7 @@ export const PapersStr = {
         {
             author: 'M. Liu, K. Hisama, Y. Zheng, M. Maruyama, S. Seo, A. Anisimov, T. Inoue, E. I. Kauppinen, S. Okada, S. Chiashi, R. Xiang, S. Maruyama†,',
             title: 'Photoluminescence from Single-Walled MoS2 Nanotubes Coaxially Grown on Boron Nitride Nanotubes,',
-            journal: 'ACSNano, 15, 8418-8426(2021).',
+            journal: 'ACS Nano, 15, 8418-8426(2021).',
             doi: 'http://dx.doi.org/10.1021/acsnano.0c10586',
             year: 2021,
             main: false,
@@ -107,7 +107,7 @@ export const PapersStr = {
         {
             author: 'Y. Feng†, H. Li, T. Inoue, S. Chiashi, S. V. Rotkin, R. Xiang, Shigeo Maruyama†,',
             title: 'One-Dimensional van der Waals Heterojunction Diode,',
-            journal: 'ACSNano, 15, 5600-5609(2021).',
+            journal: 'ACS Nano, 15, 5600-5609(2021).',
             doi: 'http://dx.doi.org/10.1021/acsnano.1c00657',
             year: 2021,
             main: false,
@@ -123,7 +123,7 @@ export const PapersStr = {
         {
             author: 'H. Koh†, S. Chiashi, J. Shiomi, S. Maruyama†,',
             title: 'Heat diffusion-related damping process in a highly precise coarse-grained model for nonlinear motion of SWCNT,',
-            journal: 'Sci.Rep., 11, 563-1-563-14(2021).',
+            journal: 'Sci. Rep., 11, 563-1-563-14(2021).',
             doi: 'http://dx.doi.org/10.1038/s41598-020-79200-6',
             year: 2021,
             main: false,
@@ -131,7 +131,7 @@ export const PapersStr = {
         {
             author: 'Y. Saito, Y. Tanaka, G. Yamaguchi, T. Kato, S. Konabe, S. Chiashi†, Y. Homma†,',
             title: 'Temperature dependence of photoluminescence spectra from a suspended single-walled carbon nanotube with water adsorption layer,',
-            journal: 'J.Appl.Phys., 129, 014301-1-014301-5(2021).',
+            journal: 'J. Appl. Phys., 129, 014301-1-014301-5(2021).',
             doi: 'http://dx.doi.org/10.1063/5.0031611',
             year: 2021,
             main: false,
@@ -139,7 +139,7 @@ export const PapersStr = {
         {
             author: 'Y. Feng, H. Li, B. Hou, H. Kataura, T. Inoue, S. Chiashi, R. Xiang, S. Maruyama†,',
             title: 'Zeolite-supported synthesis, solution dispersion, and optical characterizations of single-walled carbon nanotubes wrapped by boron nitride nanotubes,',
-            journal: 'J.Appl.Phys., 129, 015101-1-015101-9(2021).',
+            journal: 'J. Appl. Phys., 129, 015101-1-015101-9(2021).',
             doi: 'http://dx.doi.org/10.1063/5.0035674',
             year: 2021,
             main: false,
@@ -147,7 +147,7 @@ export const PapersStr = {
         {
             author: 'M. Okada†, S. Igimi, T. Inoue, X. Cheng, R. Xiang, S. Chiashi, Y. Inoue, Y. H. Wang, S. Maruyama,',
             title: 'Dry Drawability of Few-Walled Carbon Nanotubes Grown by Alcohol Chemical Vapor Deposition,',
-            journal: 'J.Phys.Chem.C, 124, 17331-17339(2020).',
+            journal: 'J. Phys. Chem. C, 124, 17331-17339(2020).',
             doi: 'http://dx.doi.org/10.1021/acs.jpcc.0c04426',
             year: 2020,
             main: false,
@@ -155,7 +155,7 @@ export const PapersStr = {
         {
             author: 'D. Okazaki, I. Morichika, H. Arai, E. Kauppinen, Q. Zhang, A. Anisimov, I. Varjos, S. Chiashi, S. Maruyama, S. Ashihara,',
             title: 'Ultrafast saturable absorption of large-diameter single-walled carbon nanotubes for passive mode locking in the mid-infrared,',
-            journal: 'OpticsExpress, 28, 19997-20006(2020).',
+            journal: 'Optics Express, 28, 19997-20006(2020).',
             doi: 'http://dx.doi.org/10.1364/OE.395962',
             year: 2020,
             main: false,
@@ -163,7 +163,7 @@ export const PapersStr = {
         {
             author: 'I. Katayama, K. Inoue, Y. Arashida, Y. Wu, H. Yang, T. Inoue, S. Chiashi, S. Maruyama, T. Nagao, M. Kitajima, J. Takeda,',
             title: 'Ultrafast optical modulation of Dirac electrons in gated single-layer graphene,',
-            journal: 'Phys.Rev.B, 101, 245408-1-245408-6(2020).',
+            journal: 'Phys. Rev. B, 101, 245408-1-245408-6(2020).',
             doi: 'http://dx.doi.org/10.1103/PhysRevB.101.245408',
             year: 2020,
             main: false,
@@ -171,7 +171,7 @@ export const PapersStr = {
         {
             author: 'H.-S. Lin, S. Okawa, Y. Ma, S. Yotsumoto, C. Lee, S. Tan, S. Manzhos, M. Yoshizawa, S. Chiashi, H. M. Lee, T. Tanaka, H. Kataura, I. Jeon†, Y. Matsuo†, S. Maruyama†,',
             title: 'Polyaromatic Nanotweezers on Semiconducting Carbon Nanotubes for the Growth and Interfacing of Lead Halide Perovskite Crystal Grains in Solar Cells,',
-            journal: 'Chem.Mater., 32, 5125-5133(2020).',
+            journal: 'Chem. Mater., 32, 5125-5133(2020).',
             doi: 'http://dx.doi.org/10.1021/acs.chemmater.0c01011',
             year: 2020,
             main: false,
@@ -179,7 +179,7 @@ export const PapersStr = {
         {
             author: 'M. G. Burdanova, R. J. Kashtiban, Y. Zheng, R.Xiang, S. Chiashi, J. M. Woolley, M Staniforth, E. Sakamoto-Rablah, X. Xie, M. Broome, J. Sloan, A. Anisimov, E. I. Kauppinen, S. Maruyama, J. Lloyd-Hughes,',
             title: 'Ultrafast Optoelectronic Processes in 1D Radial van der Waals Heterostructures: Carbon, Boron Nitride, and MoS2 Nanotubes with Coexisting Excitons and Highly Mobile Charges,',
-            journal: 'NanoLett., 20, 3560-3567(2020).',
+            journal: 'Nano Lett., 20, 3560-3567(2020).',
             doi: 'http://dx.doi.org/10.1021/acs.nanolett.0c00504',
             year: 2020,
             main: false,
@@ -195,7 +195,7 @@ export const PapersStr = {
         {
             author: 'P. Wang, Y. Zheng, T. Inoue†, R. Xiang, A. Shawky, M. Watanabe, A. Anisimov, E. I. Kauppinen, S. Chiashi, S. Maruyama†,',
             title: 'Enhanced In-Plane Thermal Conductance of Thin Films Composed of Coaxially Combined Single-Walled Carbon Nanotubes and Boron Nitride Nanotubes,',
-            journal: 'ACSNano, 14, 4298-4305(2020).',
+            journal: 'ACS Nano, 14, 4298-4305(2020).',
             doi: 'http://dx.doi.org/10.1021/acsnano.9b09754',
             year: 2020,
             main: false,
@@ -219,7 +219,7 @@ export const PapersStr = {
         {
             author: 'R. Yoshikawa, K. Hisama, H. Ukai, Y. Takagi, T. Inoue, S. Chiashi†, S. Maruyama†,',
             title: 'Molecular Dynamics of Chirality Definable Growth of Single-Walled Carbon Nanotubes,',
-            journal: 'ACSNano, 13, 6506-6512(2019).',
+            journal: 'ACS Nano, 13, 6506-6512(2019).',
             doi: 'http://dx.doi.org/10.1021/acsnano.8b09754',
             year: 2019,
             main: false,
@@ -227,7 +227,7 @@ export const PapersStr = {
         {
             author: 'H. Takezaki, T. Inoue†, R. Xiang, S. Chiashi, S. Maruyama†,',
             title: 'Growth of single-walled carbon nanotubes by alcohol chemical vapor deposition with water vapor addition: Narrowing the diameter and chiral angle distributions,',
-            journal: 'Diam.Relat.Mater., 96, 160-166(2019).',
+            journal: 'Diam. Relat. Mater., 96, 160-166(2019).',
             doi: 'http://dx.doi.org/10.1016/j.diamond.2019.05.009',
             year: 2019,
             main: false,
@@ -235,7 +235,7 @@ export const PapersStr = {
         {
             author: 'T. Yatsui†, S. Okada, T. Takemori, T. Sato, K. Saichi, T. Ogamoto, S. Chiashi, S. Maruyama, M. Noda, K. Yabana, K. Iida, K. Nobusada,',
             title: '(OPEN ACCESS) Enhanced photo-sensitivity in a Si photodetector using a near-field assisted excitation,',
-            journal: 'Commun.Phys., 2, 62-1-62-8(2019).',
+            journal: 'Commun. Phys., 2, 62-1-62-8(2019).',
             doi: 'http://dx.doi.org/10.1038/s42005-019-0173-1',
             year: 2019,
             main: false,
@@ -243,7 +243,7 @@ export const PapersStr = {
         {
             author: 'S. Seo, I. Jeon, R. Xiang, C. Lee, H. Zhang, T. Tanaka, J-W Lee, D. Suh, T. Ogamoto, R. Nishikubo, A. Saeki, S. Chiashi, J. Shiomi, H. Kataura, H. M. Lee, Y. Yang, Y. Matsuo, S. Maruyama,',
             title: 'Semiconducting carbon nanotubes as crystal growth templates and grain bridges in perovskite solar cells,',
-            journal: 'J.Mater.Chem.A, 7, 12987-12992(2019).',
+            journal: 'J. Mater. Chem. A, 7, 12987-12992(2019).',
             doi: 'http://dx.doi.org/10.1039/C9TA02629K',
             year: 2019,
             main: false,
@@ -251,7 +251,7 @@ export const PapersStr = {
         {
             author: 'Y. Yoshimoto, K. Isomura, S. Sugiyama, H. An, T. Hori, T. Inoue, S. Chiashi, S. Takagi, S. Maruyama†, I. Kinefuchi†,',
             title: 'In situ observation of dewetting-induced deformation of vertically aligned single-walled carbon nanotubes,',
-            journal: 'DiamondandRelatedMaterials, 95, 115-120(2019).',
+            journal: 'Diamondand Related Materials, 95, 115-120(2019).',
             doi: 'http://dx.doi.org/10.1016/j.diamond.2019.04.011',
             year: 2019,
             main: false,
@@ -267,7 +267,7 @@ export const PapersStr = {
         {
             author: 'Y. Tanaka, T. Kato, K. Yoshino, S. Chiashi†, Y. Homma†,',
             title: 'Experimental Assignment of Phonon Symmetry of G+ and G- Peaks from Single-walled Carbon Nanotubes,',
-            journal: 'Appl.Phys.Express, 12, 055009-1-055009-5(2019).',
+            journal: 'Appl. Phys. Express, 12, 055009-1-055009-5(2019).',
             doi: 'http://dx.doi.org/10.7567/1882-0786/ab0cdb',
             year: 2019,
             main: false,
@@ -275,7 +275,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi, Y. Homma, S. Maruyama,',
             title: 'Raman Spectroscopy for Practical Characterization of Single-Wall Carbon Nanotubes in Various Environments (Chapter 9) (著書),',
-            journal: 'HandbookofCarbonNanomaterialsVol.10:OpticalPropertiesofCarbonNanotubes, eds.R.B.WeismanandJ.Kono(WorldScientificPublishing, Singapore), **, **-***(2019).',
+            journal: 'Handbook of Carbon Nanomaterials Vol.10: Optical Properties of Carbon Nanotubes, eds. R. B. Weismanand J. Kono (WorldScientificPublishing, Singapore), **, **-***(2019).',
             doi: 'http://dx.doi.org/10.1142/10862',
             year: 2019,
             main: false,
@@ -291,7 +291,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi†, Y. Saito, T. Kato, S. Konabe, S. Okada, T. Yamamoto, Y. Homma†,',
             title: '(OPEN ACCESS) Confinement Effect of Sub-Nanometer Difference on Melting Point of Ice-Nanotubes Measured by Photoluminescence Spectroscopy,',
-            journal: 'ACSNano, 13, 1177-1182(2019).',
+            journal: 'ACS Nano, 13, 1177-1182(2019).',
             doi: 'http://dx.doi.org/10.1021/acsnano.8b06041',
             year: 2019,
             main: true,
@@ -299,7 +299,7 @@ export const PapersStr = {
         {
             author: 'J.-H. Cha, S. Chiashi, T. Inoue, E. Einarsson, J Shiomi, S Maruyama†,',
             title: 'Fabrication of uniform vertically-aligned carbon nanotube-polymer composite thin films by capillary flow intrusion,',
-            journal: 'Jpn.J.Appl.Phys., 57, 115101-1-115101-5(2018).',
+            journal: 'Jpn. J. Appl. Phys., 57, 115101-1-115101-5(2018).',
             doi: 'http://dx.doi.org/10.7567/JJAP.57.115101',
             year: 2018,
             main: false,
@@ -307,7 +307,7 @@ export const PapersStr = {
         {
             author: 'W. Gomulya, H. Machiya, K. Kashiwa, T. Inoue, S. Chiashi, S. Maruyama, Y. K. Kato†,',
             title: 'Enhanced Raman scattering of graphene using double resonance in silicon photonic crystal nanocavities,',
-            journal: 'Appl.Phys.Lett., 113, 081101-1-081101-5(2018).',
+            journal: 'Appl. Phys. Lett., 113, 081101-1-081101-5(2018).',
             doi: 'http://dx.doi.org/10.1063/1.5042798',
             year: 2018,
             main: false,
@@ -315,7 +315,7 @@ export const PapersStr = {
         {
             author: 'T. Sakaguchi, I. Jeon, T. Chiba, A. Shawky, R. Xiang, S. Chiashi, E. Kauppinen, N.-G. Park, Y. Matsuo, S. Maruyama,',
             title: 'Non-Doped and Unsorted Single-Walled Carbon Nanotubes as Carrier-Selective, Transparent and Conductive Electrode for Perovskite Solar Cells,',
-            journal: 'MRSCommunications, 8, 1058-1063(2018).',
+            journal: 'MRS Communications, 8, 1058-1063(2018).',
             doi: 'http://dx.doi.org/10.1557/mrc.2018.142',
             year: 2018,
             main: false,
@@ -323,7 +323,7 @@ export const PapersStr = {
         {
             author: 'Y. Qian, H. An, T.Inoue, S. Chiashi, R. Xiang†, S. Maruyama†,',
             title: 'A Comparison Between Reduced and Intentionally Oxidized Metal Catalysts for Growth of Single-Walled Carbon Nanotubes,',
-            journal: 'physicastatussolidib, 255, 1800187-1-1800187-6(2018).',
+            journal: 'physica status solidi b, 255, 1800187-1-1800187-6(2018).',
             doi: 'http://dx.doi.org/10.1002/pssb.201800187',
             year: 2018,
             main: false,
@@ -331,7 +331,7 @@ export const PapersStr = {
         {
             author: 'Y. Feng, T. Inoue, M. Watanabe, S. Yoshida, Y. Qian, R. Xiang, E. I. Kauppinen, S. Chiashi, S. Maruyama,',
             title: 'Measurement of in-plane sheet thermal conductance of single-walled carbon nanotube thin films by steady-state infrared thermography,',
-            journal: 'Jpn.J.Appl.Phys., 57, 075101-1-075101-6(2018).',
+            journal: 'Jpn. J. Appl. Phys., 57, 075101-1-075101-6(2018).',
             doi: 'http://dx.doi.org/10.7567/JJAP.57.075101',
             year: 2018,
             main: false,
@@ -339,7 +339,7 @@ export const PapersStr = {
         {
             author: 'Y. Feng, T. Inoue, H. An, R. Xiang, S. Chiashi, S. Maruyama†,',
             title: 'Quantitative study of bundle size effect on thermal conductivity of single-walled carbon nanotubes,',
-            journal: 'Appl.Phys.Lett., 112, 191904-1-191904-5(2018).',
+            journal: 'Appl. Phys. Lett., 112, 191904-1-191904-5(2018).',
             doi: 'http://dx.doi.org/10.1063/1.5021696',
             year: 2018,
             main: false,
@@ -347,7 +347,7 @@ export const PapersStr = {
         {
             author: 'K. Hisama, R. Yoshikawa, T. Matsuo, T. Noguchi, T. Kawasuzuki, S. Chiashi, S. Maruyama†,',
             title: 'Growth Analysis of Single-Walled Carbon Nanotubes Based on Interatomic Potentials by Molecular Dynamics Simulation,',
-            journal: 'J.Phys.Chem.C, 122, 9648-9653(2018).',
+            journal: 'J. Phys. Chem. C, 122, 9648-9653(2018).',
             doi: 'http://dx.doi.org/10.1021/acs.jpcc.7b12687',
             year: 2018,
             main: false,
@@ -355,7 +355,7 @@ export const PapersStr = {
         {
             author: 'K. Yoshino, T. Kato, Y. Saito, J. Shitaba, T. Hanashima, K. Nagano, S. Chiashi†, Y. Homma†,',
             title: '(OPEN ACCESS) Temperature Distribution and Thermal Conductivity Measurements of Chirality-assigned Single-walled Carbon Nanotubes by Photoluminescence Imaging Spectroscopy,',
-            journal: 'ACSOmega, 3, 4352-4356(2018).',
+            journal: 'ACS Omega, 3, 4352-4356(2018).',
             doi: 'http://dx.doi.org/10.1021/acsomega.8b00607',
             year: 2018,
             main: false,
@@ -363,7 +363,7 @@ export const PapersStr = {
         {
             author: 'K. Otsuka, S. Yamamoto, T. Inoue†, B. Koyano, H. Ukai, R. Yoshikawa, R. Xiang, S. Chiashi, S. Maruyama†,',
             title: 'Digital isotope coding to trace growth process of individual single-walled carbon nanotubes,',
-            journal: 'ACSNano, 12, 3994-4001(2018).',
+            journal: 'ACS Nano, 12, 3994-4001(2018).',
             doi: 'http://dx.doi.org/10.1021/acsnano.8b01630',
             year: 2018,
             main: false,
@@ -379,7 +379,7 @@ export const PapersStr = {
         {
             author: 'K. Matsumura, S. Chiashi, S. Maruyama, J. Choi†,',
             title: 'Macroscale Tribological Properties of Fluorinated Graphene,',
-            journal: 'AppliedSurfaceScience, 432, 190-195(2018).',
+            journal: 'Applied Surface Science, 432, 190-195(2018).',
             doi: 'http://dx.doi.org/10.1016/j.apsusc.2017.06.190',
             year: 2018,
             main: false,
@@ -387,7 +387,7 @@ export const PapersStr = {
         {
             author: 'S. Aikawa, S. Kim, T. Thurakitseree, E. Einarsson, T. Inoue, S. Chiashi, K. Tsukagoshi, S. Maruyama,',
             title: 'Carrier Polarity Engineering in Carbon Nanotube Field-Effect Transistors by Induced Charges in Polymer Insulator,',
-            journal: 'Appl.Phys.Lett., 112, 013501-1-013501-4(2018).',
+            journal: 'Appl. Phys. Lett., 112, 013501-1-013501-4(2018).',
             doi: 'http://dx.doi.org/10.1063/1.4994114',
             year: 2018,
             main: false,
@@ -395,7 +395,7 @@ export const PapersStr = {
         {
             author: 'S. Yasuda†, T. Yoshii, S. Chiashi, S. Maruyama, K. Murakoshi†,',
             title: 'Plasmon-Induced Selective Oxidation Reaction at Single-Walled Carbon Nanotubes,',
-            journal: 'ACSAppl.Mater.Interfaces, 9, 38992-38998(2017).',
+            journal: 'ACS Appl. Mater. Interfaces, 9, 38992-38998(2017).',
             doi: 'http://dx.doi.org/10.1021/acsami.7b07636',
             year: 2017,
             main: false,
@@ -403,7 +403,7 @@ export const PapersStr = {
         {
             author: 'K. Otsuka, T. Inoue, E. Maeda, R. Kometani, S. Chiashi, S. Maruyama†,',
             title: 'On-chip sorting of long semiconducting carbon nanotubes for multiple transistors along an identical array,',
-            journal: 'ACSNano, 11, 11497-11504(2017).',
+            journal: 'ACS Nano, 11, 11497-11504(2017).',
             doi: 'http://dx.doi.org/10.1021/acsnano.7b06282',
             year: 2017,
             main: true,
@@ -411,7 +411,7 @@ export const PapersStr = {
         {
             author: 'K. Otsuka, T. Inoue, Y. Shimomura, S. Chiashi, S. Maruyama,',
             title: 'Water-assisted self-sustained burning of metallic single-walled carbon nanotubes for scalable transistor fabrication,',
-            journal: 'NanoResearch, 10, 3248-3260(2017).',
+            journal: 'Nano Research, 10, 3248-3260(2017).',
             doi: 'http://dx.doi.org/10.1007/s12274-017-1648-6',
             year: 2017,
             main: false,
@@ -435,7 +435,7 @@ export const PapersStr = {
         {
             author: 'A. S. Westover, J. Choi, K. Cui, T. Ishikawa, T. Inoue, R. Xiang, S. Chiashi, T. Kato, S. Maruyama†, C. L. Pint†,',
             title: 'Load Dependent Frictional Response of Vertically Aligned Single-Walled Carbon Nanotube Films,',
-            journal: 'ScriptaMaterialia, 125, 63-67(2016).',
+            journal: 'Scripta Materialia, 125, 63-67(2016).',
             doi: 'http://dx.doi.org/10.1016/j.scriptamat.2016.07.032',
             year: 2016,
             main: false,
@@ -443,7 +443,7 @@ export const PapersStr = {
         {
             author: 'I. Jeon, Y. Qian,a S. Nakao, D. Ogawa, R. Xiang, T. Inoue, S. Chiashi, T. Hasegawa, S. Maruyama†, Y. Matsuo†,',
             title: 'Room Temperature-processed Inverted Organic Solar Cells using High Working-Pressure-Sputtered ZnO film,',
-            journal: 'J.Mater.Chem.A, 4, 18763-18768(2016).',
+            journal: 'J. Mater. Chem. A, 4, 18763-18768(2016).',
             doi: 'http://dx.doi.org/10.1039/c6ta08068e',
             year: 2016,
             main: false,
@@ -499,7 +499,7 @@ export const PapersStr = {
         {
             author: 'H. Koh, J. J. Cannon, T. Shiga, J. Shiomi, S. Chiashi, S. Maruyama†,',
             title: 'Thermally induced non-linear vibration of single-walled carbon nanotubes,',
-            journal: 'Phys.Rev.B, 92, 024306-1-024306-10(2015).',
+            journal: 'Phys. Rev. B, 92, 024306-1-024306-10(2015).',
             doi: 'http://dx.doi.org/10.1103/PhysRevB.92.024306',
             year: 2015,
             main: false,
@@ -507,7 +507,7 @@ export const PapersStr = {
         {
             author: 'T. Inoue, D. Hasegawa, S. Chiashi, S. Maruyama†,',
             title: '(OPEN ACCESS) Chirality Analysis of Horizontally Aligned Single-Walled Carbon Nanotubes: Decoupling Populations and Lengths,',
-            journal: 'J.Mater.Chem.A, 3, 15119-15123(2015).',
+            journal: 'J. Mater. Chem. A, 3, 15119-15123(2015).',
             doi: 'http://dx.doi.org/10.1039/C5TA02679B',
             year: 2015,
             main: false,
@@ -515,7 +515,7 @@ export const PapersStr = {
         {
             author: 'S. Kim, P. Zhao, S. Aikawa, E. Einarsson, S. Chiashi, S. Maruyama†,',
             title: 'Highly Stable and Tunable n-Type Graphene Field-Effect Transistors with Polyvinyl Alcohol Films,',
-            journal: 'ACSAppl.Mater.Interfaces, 7, 9702-9708(2015).',
+            journal: 'ACS Appl. Mater. Interfaces, 7, 9702-9708(2015).',
             doi: 'http://dx.doi.org/10.1021/acsami.5b01474',
             year: 2015,
             main: false,
@@ -523,7 +523,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi†, K. Kono, D. Matsumoto, J. Shitaba, N. Homma, A. Beniya, T. Yamamoto†, Y. Homma†,',
             title: 'Adsorption Effects on Radial Breathing Mode of Single-walled Carbon Nanotubes,',
-            journal: 'Phys.Rev.B, 91, 155415-1-155415-5(2015).',
+            journal: 'Phys. Rev. B, 91, 155415-1-155415-5(2015).',
             doi: 'http://dx.doi.org/10.1103/PhysRevB.91.155415',
             year: 2015,
             main: true,
@@ -531,7 +531,7 @@ export const PapersStr = {
         {
             author: 'A. Ozao, S. Chiashi, S. Watanabe, G. Yamaguchi, H. Kato, Y. Homma†,',
             title: 'Gold deposition effects on photoluminescence and Raman scattering spectra of suspended single-walled carbon nanotubes,',
-            journal: 'Jpn.J.Appl.Phys., 54, 055102-1-055102-4(2015).',
+            journal: 'Jpn. J. Appl. Phys., 54, 055102-1-055102-4(2015).',
             doi: 'http://dx.doi.org/10.7567/jjap.54.055102',
             year: 2015,
             main: false,
@@ -539,7 +539,7 @@ export const PapersStr = {
         {
             author: 'K. Cui, T. Chiba, X. Chen, S. Chiashi, S. Maruyama†,',
             title: 'Structured Single-Walled Carbon Nanotubes and Graphene for Solar Cells,',
-            journal: 'J.Nanosci.andNanotechnol., 15, 3107-3110(2015).',
+            journal: 'J. Nanosci. and Nanotechnol., 15, 3107-3110(2015).',
             doi: 'http://dx.doi.org/10.1166/jnn.2015.9682',
             year: 2015,
             main: false,
@@ -547,7 +547,7 @@ export const PapersStr = {
         {
             author: 'P. Zhao†, S. Kim, X. Chen, E. Einarsson, M. Wang, Y. Song†, H. Wang†, S. Chiashi, R. Xiang, S. Maruyama†,',
             title: 'Equilibrium Chemical Vapor Deposition Growth of Bernal-Stacked Bilayer Graphene,',
-            journal: 'ACSNano, 8, 11631-11638(2014).',
+            journal: 'ACS Nano, 8, 11631-11638(2014).',
             doi: 'http://dx.doi.org/10.1021/nn5049188',
             year: 2014,
             main: false,
@@ -563,7 +563,7 @@ export const PapersStr = {
         {
             author: 'K. Cui, A. S. Anisimov, T. Chiba, S. Fujii, H. Kataura, A. Nasibulin, S. Chiashi, E. Kauppinen, S. Maruyama†,',
             title: '(OPEN ACCESS) Air-Stable High-Efficiency Solar Cells with Dry-Transferred Single-Walled Carbon Nanotube Films,',
-            journal: 'J.Mater.Chem.A, 2, 11311-11318(2014).',
+            journal: 'J. Mater. Chem. A, 2, 11311-11318(2014).',
             doi: 'http://dx.doi.org/10.1039/C4TA01353K',
             year: 2014,
             main: false,
@@ -571,7 +571,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi†, T. Hanashima, R. Mitobe, K. Nagatsu, T. Yamamoto, Y. Homma†,',
             title: 'Water Encapsulation Control in Individual Single-Walled Carbon Nanotubes by Laser Irradiation,',
-            journal: 'J.Phys.Chem.Lett., 5, 408-412(2014).',
+            journal: 'J. Phys. Chem. Lett., 5, 408-412(2014).',
             doi: 'http://dx.doi.org/10.1021/jz402540v',
             year: 2014,
             main: true,
@@ -579,7 +579,7 @@ export const PapersStr = {
         {
             author: 'K. Cui, T. Chiba, S. Omiya, T. Thurakitseree, P. Zhao, S. Fujii, H. Kataura, E. Einarsson, S. Chiashi, S. Maruyama†,',
             title: 'Self-Assembled Microhoneycomb Network of Single-Walled Carbon Nanotubes for Solar Cells,',
-            journal: 'J.Phys.Chem.Lett., 4, 2571-2576(2013).',
+            journal: 'J. Phys. Chem. Lett., 4, 2571-2576(2013).',
             doi: 'http://dx.doi.org/10.1021/jz401242a',
             year: 2013,
             main: false,
@@ -587,7 +587,7 @@ export const PapersStr = {
         {
             author: 'S. Harish, K. Ishikawa, S. Chiashi, J. Shiomi, S. Maruyama†,',
             title: 'Anomalous Thermal Conduction Characteristics of Phase Change Composites with Single Walled Carbon Nanotube Inclusions,',
-            journal: 'J.Phys.Chem.C, 117, 15409-15413(2013).',
+            journal: 'J. Phys. Chem. C, 117, 15409-15413(2013).',
             doi: 'http://dx.doi.org/10.1021/jp4046512',
             year: 2013,
             main: false,
@@ -595,7 +595,7 @@ export const PapersStr = {
         {
             author: 'T. Inoue, D. Hasegawa, S. Badar, S. Aikawa, S. Chiashi, S. Maruyama†,',
             title: 'Effect of Gas Pressure on the Density of Horizontally Aligned Single-Walled Carbon Nanotubes Grown on Quartz Substrates,',
-            journal: 'J.Phys.Chem.C, 117, 11804-11810(2013).',
+            journal: 'J. Phys. Chem. C, 117, 11804-11810(2013).',
             doi: 'http://dx.doi.org/10.1021/jp401681e',
             year: 2013,
             main: false,
@@ -611,7 +611,7 @@ export const PapersStr = {
         {
             author: 'P. Zhao, A. Kumamoto, S. Kim, X. Chen, B. Hou, S. Chiashi, E. Einarsson, Y. Ikuhara, S. Maruyama†,',
             title: 'Self-Limiting Chemical Vapor Deposition Growth of Monolayer Graphene from Ethanol,',
-            journal: 'J.Phys.Chem.C, 117, 10755-10763(2013).',
+            journal: 'J. Phys. Chem. C, 117, 10755-10763(2013).',
             doi: 'http://dx.doi.org/10.1021/jp400996s',
             year: 2013,
             main: false,
@@ -627,7 +627,7 @@ export const PapersStr = {
         {
             author: 'Y. Homma†, S. Chiashi†, T. Yamamoto†, K. Kono, D. Matsumoto, J. Shitaba, S. Sato,',
             title: 'Photoluminescence measurements and molecular dynamics simulations of water adsorption on the hydrophobic surface of a carbon nanotube in water vapor,',
-            journal: 'Phys.Rev.Lett., 110, 157402-1-157402-4(2013).',
+            journal: 'Phys. Rev. Lett., 110, 157402-1-157402-4(2013).',
             doi: 'http://dx.doi.org/10.1103/PhysRevLett.110.157402',
             year: 2013,
             main: true,
@@ -635,7 +635,7 @@ export const PapersStr = {
         {
             author: 'R. Xiang†, B. Hou, E. Einarsson, P. Zhao, S. Harish, K. Morimoto, Y. Miyauchi, S. Chiashi, Z. Tang, S. Maruyama†,',
             title: 'Carbon Atoms in Ethanol Do Not Contribute Equally to Formation of Single-Walled Carbon Nanotubes,',
-            journal: 'ACSNano, 7, 3095-3103(2013).',
+            journal: 'ACS Nano, 7, 3095-3103(2013).',
             doi: 'http://dx.doi.org/10.1021/nn305180g',
             year: 2013,
             main: false,
@@ -643,7 +643,7 @@ export const PapersStr = {
         {
             author: 'T. Thurakitseree, C. Kramberger, A. Kumamoto, S. Chiashi, E. Einarsson, S. Maruyama†,',
             title: 'Reversible Diameter Modulation of Single-Walled Carbon Nanotubes by Acetonitrile-Containing Feedstock,',
-            journal: 'ACSNano, 7, 2205-2211(2013).',
+            journal: 'ACS Nano, 7, 2205-2211(2013).',
             doi: 'http://dx.doi.org/10.1021/nn3051852',
             year: 2013,
             main: false,
@@ -651,7 +651,7 @@ export const PapersStr = {
         {
             author: 'T. Thurakitseree, C. Kramberger, P. Zhao, S. Chiashi, E. Einarsson, S. Maruyama†,',
             title: 'Reduction of single-walled carbon nanotube diameter to sub-nm via feedstock,',
-            journal: 'Phys.statussolidib, 249, 2404-2407(2012).',
+            journal: 'Phys. status solidi b, 249, 2404-2407(2012).',
             doi: 'http://dx.doi.org/10.1002/pssb.201200126',
             year: 2012,
             main: false,
@@ -659,7 +659,7 @@ export const PapersStr = {
         {
             author: 'R. Watahiki, T. Shimada, P. Zhao, S. Chiashi, S. Iwamoto, Y. Arakawa, S. Maruyama, Y. K. Kato†,',
             title: 'Enhancement of carbon nanotube photoluminescence by photonic crystal nanocavities,',
-            journal: 'Appl.Phys.Lett., 101, 141124-1-141124-3(2012).',
+            journal: 'Appl. Phys. Lett., 101, 141124-1-141124-3(2012).',
             doi: 'http://dx.doi.org/10.1063/1.4757876',
             year: 2012,
             main: false,
@@ -667,7 +667,7 @@ export const PapersStr = {
         {
             author: 'S. Harish, K. Ishikawa, E. Einarsson, S. Aikawa, T. Inoue, P. Zhao, M. Watanabe, S. Chiashi, J. Shiomi, S. Maruyama†,',
             title: 'Temperature Dependent Thermal Conductivity Increase of Aqueous Nanofluid with Single Walled Carbon Nanotube Inclusion,',
-            journal: 'Mater.Express, 2, 213-223(2012).',
+            journal: 'Mater. Express, 2, 213-223(2012).',
             doi: 'http://dx.doi.org/10.1166/mex.2012.1074',
             year: 2012,
             main: false,
@@ -675,7 +675,7 @@ export const PapersStr = {
         {
             author: 'R. Xiang†, E. Einarsson, Y. Murakami, J. Shiomi, S. Chiashi, Z. Tang, S. Maruyama†,',
             title: 'Diameter Modulation of Vertically Aligned Single-Walled Carbon Nanotubes,',
-            journal: 'ACSNano, 6, 7472-7479(2012).',
+            journal: 'ACS Nano, 6, 7472-7479(2012).',
             doi: 'http://dx.doi.org/10.1021/nn302750x',
             year: 2012,
             main: false,
@@ -683,7 +683,7 @@ export const PapersStr = {
         {
             author: 'S. Harish, K. Ishikawa, E. Einarsson, S. Aikawa, S. Chiashi, J. Shiomi, S. Maruyama†,',
             title: 'Enhanced Thermal Conductivity of Ethylene Glycol with Single-Walled Carbon Nanotube Inclusions,',
-            journal: 'Int.J.HeatMassTransfer, 55, 3885-3890(2012).',
+            journal: 'Int. J. Heat Mass Transfer, 55, 3885-3890(2012).',
             doi: 'http://dx.doi.org/10.1016/j.ijheatmasstransfer.2012.03.001',
             year: 2012,
             main: false,
@@ -691,7 +691,7 @@ export const PapersStr = {
         {
             author: 'K. Kono, D. Matsumoto, S. Chiashi, Y. Homma†,',
             title: 'Simultaneous measurement of photoluminescence and Raman scattering spectra from suspended single-walled carbon nanotubes,',
-            journal: 'Surf.InterfaceAnal., 44, 686-689(2012).',
+            journal: 'Surf. Interface Anal., 44, 686-689(2012).',
             doi: 'http://dx.doi.org/10.1002/sia.4819',
             year: 2012,
             main: false,
@@ -707,7 +707,7 @@ export const PapersStr = {
         {
             author: 'J. H. Cha, S. Chiashi, J. Shiomi, S. Maruyama†,',
             title: 'Generalized Model of Thermal Boundary Conductance between SWNT and Surrounding Supercritical Lennard-Jones Fluid - Derivation from Molecular Dynamics Simulations,',
-            journal: 'Int.J.HeatMassTransfer, 55, 2008-2013(2012).',
+            journal: 'Int. J. Heat Mass Transfer, 55, 2008-2013(2012).',
             doi: 'http://dx.doi.org/10.1016/j.ijheatmasstransfer.2011.11.056',
             year: 2012,
             main: false,
@@ -715,7 +715,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi, H. Okabe, T. Inoue, J. Shiomi, T. Sato, S. Kono, M. Terasawa, S. Maruyama†,',
             title: 'Growth of Horizontally Aligned Single-Walled Carbon Nanotubes on the Singular R-Plane (1011) of Quartz,',
-            journal: 'J.Phys.Chem.C, 116, 6805-6808(2012).',
+            journal: 'J. Phys. Chem. C, 116, 6805-6808(2012).',
             doi: 'http://dx.doi.org/10.1021/jp210121n',
             year: 2012,
             main: false,
@@ -723,7 +723,7 @@ export const PapersStr = {
         {
             author: 'S. Aikawa, E. Einarsson, T. Thurakitseree, S. Chiashi, E. Nishikawa, S. Maruyama†,',
             title: 'Deformable Transparent All-Carbon-Nanotube Transistors,',
-            journal: 'Appl.Phys.Lett., 100, 063502-1-063502-4(2012).',
+            journal: 'Appl. Phys. Lett., 100, 063502-1-063502-4(2012).',
             doi: 'http://dx.doi.org/10.1063/1.3683517',
             year: 2012,
             main: false,
@@ -731,7 +731,7 @@ export const PapersStr = {
         {
             author: 'T. Thurakitseree, E. Einarsson, R. Xiang, P. Zhao, S. Aikawa, S. Chiashi, J. Shiomi, S. Maruyama†,',
             title: 'Diameter Controlled Chemical Vapor Deposition Synthesis of Single-Walled Carbon Nanotubes,',
-            journal: 'J.Nanosci.Nanotechnol., 12, 370-376(2012).',
+            journal: 'J. Nanosci. Nanotechnol., 12, 370-376(2012).',
             doi: 'http://dx.doi.org/10.1166/jnn.2012.5398',
             year: 2012,
             main: false,
@@ -739,7 +739,7 @@ export const PapersStr = {
         {
             author: 'S. Yasukochi, T. Murai, S. Moritsubo, T. Shimada, S. Chiashi, S. Maruyama, Y. K. Kato†,',
             title: 'Gate-induced blueshift and quenching of photoluminescence in suspended single-walled carbon nanotubes,',
-            journal: 'Phys.Rev.B, 84, 121409(R)-1-121409(R)-4(2011).',
+            journal: 'Phys. Rev. B, 84, 121409(R)-1-121409(R)-4(2011).',
             doi: 'http://dx.doi.org/10.1103/PhysRevB.84.121409',
             year: 2011,
             main: false,
@@ -747,7 +747,7 @@ export const PapersStr = {
         {
             author: 'P. Zhao, E. Einarsson, R. Xiang, Y. Murakami, S. Chiashi, J. Shiomi, S. Maruyama†,',
             title: 'Isotope-induced elastic scattering of optical phonons in individual suspended single-walled carbon nanotubes,',
-            journal: 'Appl.Phys.Lett., 99, 093104-1-093104-3(2011).',
+            journal: 'Appl. Phys. Lett., 99, 093104-1-093104-3(2011).',
             doi: 'http://dx.doi.org/10.1063/1.3632076',
             year: 2011,
             main: false,
@@ -755,7 +755,7 @@ export const PapersStr = {
         {
             author: 'K. Nagato†, S. Inoue, M. Furubayashi, S. Chiashi, S. Maruyama, T. Hamaguchi, M. Nakao,',
             title: 'Field emission of vertically aligned single-walled carbon nanotubes patterned by pressing a microstructured mold,',
-            journal: 'MicroelectronicEngineering, 88, 2700-2702(2011).',
+            journal: 'Microelectronic Engineering, 88, 2700-2702(2011).',
             doi: 'http://dx.doi.org/10.1016/j.mee.2011.01.035',
             year: 2011,
             main: false,
@@ -763,7 +763,7 @@ export const PapersStr = {
         {
             author: 'P. Zhao, E. Einarsson, G. Lagoudas, J. Shiomi, S. Chiashi, S. Maruyama†,',
             title: 'Tunable separation of single-walled carbon nanotubes by dual-surfactant density gradient ultracentrifugation,',
-            journal: 'NanoRes., 4, 623-634(2011).',
+            journal: 'Nano Res., 4, 623-634(2011).',
             doi: 'http://dx.doi.org/10.1007/s12274-011-0118-9',
             year: 2011,
             main: false,
@@ -771,7 +771,7 @@ export const PapersStr = {
         {
             author: 'B. Hou, R. Xiang, T. Inoue, E. Einarsson, S. Chiashi, J. Shiomi, A. Miyoshi, S. Maruyama†,',
             title: 'Decomposition of Ethanol and Dimethyl Ether during Chemical Vapor Deposition Synthesis of Single-Walled Carbon Nanotubes,',
-            journal: 'Jpn.J.Appl.Phys., 50, 065101-1-065101-4(2011).',
+            journal: 'Jpn. J. Appl. Phys., 50, 065101-1-065101-4(2011).',
             doi: 'http://dx.doi.org/10.1143/jjap.50.065101',
             year: 2011,
             main: false,
@@ -779,7 +779,7 @@ export const PapersStr = {
         {
             author: 'S. Aikawa, R. Xiang, E. Einarsson, S. Chiashi, J. Shiomi, E. Nishikawa, S. Maruyama†,',
             title: 'Facile Fabrication of All-SWNT Field-Effect Transistors,',
-            journal: 'NanoRes., 4, 580-588(2011).',
+            journal: 'Nano Res., 4, 580-588(2011).',
             doi: 'http://dx.doi.org/10.1007/s12274-011-0114-0',
             year: 2011,
             main: false,
@@ -787,7 +787,7 @@ export const PapersStr = {
         {
             author: 'S. Aikawa, E. Einarsson T. Inoue, R. Xiang, S. Chiashi, J. Shiomi, E. Nishikawa, S. Maruyama†,',
             title: 'Simple Fabrication Technique for Field-Effect Transistor Array Using As-Grown Single-Walled Carbon Nanotubes,',
-            journal: 'JpnJ.Appl.Phys., 50, 04DN08-1-04DN08-4(2011).',
+            journal: 'Jpn. J. Appl. Phys., 50, 04DN08-1-04DN08-4(2011).',
             doi: 'http://dx.doi.org/10.1143/jjap.50.04dn08',
             year: 2011,
             main: false,
@@ -795,7 +795,7 @@ export const PapersStr = {
         {
             author: 'K. Nagatsu, S. Chiashi, S. Konabe, Y. Homma†,',
             title: 'Brightening of Triplet Dark Excitons by Atomic Hydrogen Adsorption in Single-Walled Carbon Nanotubes Observed by Photoluminescence Spectroscopy,',
-            journal: 'Phys.Rev.Lett., 105, 157403-1-157403-4(2010).',
+            journal: 'Phys. Rev. Lett., 105, 157403-1-157403-4(2010).',
             doi: 'http://dx.doi.org/10.1103/PhysRevLett.105.157403',
             year: 2010,
             main: true,
@@ -803,7 +803,7 @@ export const PapersStr = {
         {
             author: 'S. Moritsubo, T. Murai, T. Shimada, Y. Murakami, S. Chiashi, S. Maruyama, Y. K. Kato†,',
             title: 'Exciton diffusion in air-suspended single-walled carbon nanotubes,',
-            journal: 'Phys.Rev.Lett., 104, 247402-1-247402-4(2010).',
+            journal: 'Phys. Rev. Lett., 104, 247402-1-247402-4(2010).',
             doi: 'http://dx.doi.org/10.1103/PhysRevLett.104.247402',
             year: 2010,
             main: false,
@@ -811,7 +811,7 @@ export const PapersStr = {
         {
             author: 'H. Liu†, D. Takagi, S. Chiashi, T. Chokan, Y. Homma,',
             title: 'Investigation of Catalytic Properties of Al2O3 Particles in the Growth of Single-Walled Carbon Nanotubes,',
-            journal: 'J.Nanosci.Nanotechnol., 10, 4068-4073(2010).',
+            journal: 'J. Nanosci. Nanotechnol., 10, 4068-4073(2010).',
             doi: 'http://dx.doi.org/10.1166/jnn.2010.1969',
             year: 2010,
             main: false,
@@ -819,7 +819,7 @@ export const PapersStr = {
         {
             author: 'J. E. Bohn, P. G. Etchegoin†, E. C. L. Ru, R. Xiang, S. Chiashi, S. Maruyama†,',
             title: 'Estimating the Raman Cross Sections of Single Carbon Nanotubes,',
-            journal: 'ACSNano, 4, 3466-3470(2010).',
+            journal: 'ACS Nano, 4, 3466-3470(2010).',
             doi: 'http://dx.doi.org/10.1021/nn100425k',
             year: 2010,
             main: false,
@@ -827,7 +827,7 @@ export const PapersStr = {
         {
             author: 'K. Yamada, T. Chokan, S. Chiashi, Y. Homma†,',
             title: 'Vertical Sheet Array of Carbon Nanotubes Grown on Sapphire Substrates using Atomic Step Distribution,',
-            journal: 'Appl.Phys.Express, 3, 065101-1-065101-3(2010).',
+            journal: 'Appl. Phys. Express, 3, 065101-1-065101-3(2010).',
             doi: 'http://dx.doi.org/10.1143/apex.3.065101',
             year: 2010,
             main: false,
@@ -835,7 +835,7 @@ export const PapersStr = {
         {
             author: 'K. Yamada, S. Chiashi, K. Takahashi, Y. Homma†,',
             title: 'Effects of atomic-scale surface morphology on carbon nanotube alignment on thermally oxidized silicon surface,',
-            journal: 'Appl.Phys.Lett., 96, 103102-1-103102-3(2010).',
+            journal: 'Appl. Phys. Lett., 96, 103102-1-103102-3(2010).',
             doi: 'http://dx.doi.org/10.1063/1.3354009',
             year: 2010,
             main: false,
@@ -843,7 +843,7 @@ export const PapersStr = {
         {
             author: 'R. Xiang, E. Einarsson, H. Okabe, S. Chiashi, J. Shiomi, S. Maruyama†,',
             title: 'Patterned Growth of High-Quality Single-Walled Carbon Nanotubes from Dip-Coated Catalyst,',
-            journal: 'Jpn.J.Appl.Phys., 49, 02BA03-1-02BA03-3(2010).',
+            journal: 'Jpn. J. Appl. Phys., 49, 02BA03-1-02BA03-3(2010).',
             doi: 'http://dx.doi.org/10.1143/jjap.49.02ba03',
             year: 2010,
             main: false,
@@ -851,7 +851,7 @@ export const PapersStr = {
         {
             author: 'H. Liu, D. Takagi, S. Chiashi, Y. Homma†,',
             title: 'Transfer and Alignment of Random Single-Walled Carbon Nanotube Films by Contact Printing,',
-            journal: 'ACSNano, 4, 933-938(2010).',
+            journal: 'ACS Nano, 4, 933-938(2010).',
             doi: 'http://dx.doi.org/10.1021/nn901741y',
             year: 2010,
             main: false,
@@ -867,7 +867,7 @@ export const PapersStr = {
         {
             author: 'T. Chokan, T. Uetake, K. Yamada, S. Chiashi, Y. Homma†,',
             title: 'Effect of Surface Structure of Sapphire A-Face on Directional Carbon Nanotube Growth,',
-            journal: 'e-JouranlofSurfaceScienceandNanotechnology, 7, 904-907(2009).',
+            journal: 'e-Jouranl of Surface Science and Nanotechnology, 7, 904-907(2009).',
             doi: 'http://dx.doi.org/10.1380/ejssnt.2009.904',
             year: 2009,
             main: false,
@@ -883,7 +883,7 @@ export const PapersStr = {
         {
             author: 'Y. Homma†, T. Hanashima, S. Chiashi,',
             title: 'Suspended Single-walled Carbon Nanotubes as Sensor of Molecular Adsorption,',
-            journal: 'SensorsandMaterials, 21, 331-338(2009).',
+            journal: 'Sensorsand Materials, 21, 331-338(2009).',
             doi: 'http://dx.doi.org/',
             year: 2009,
             main: false,
@@ -891,7 +891,7 @@ export const PapersStr = {
         {
             author: 'Y. Homma†, S. Chiashi, Y. Kobayashi,',
             title: 'Suspended single-wall carbon nanotubes: synthesis and optical properties,',
-            journal: 'Rep.Prog.Phys., 72, 066502-1-066502-22(2009).',
+            journal: 'Rep. Prog. Phys., 72, 066502-1-066502-22(2009).',
             doi: 'http://dx.doi.org/10.1088/0034-4885/72/6/066502',
             year: 2009,
             main: true,
@@ -907,7 +907,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi†, S. Watanabe, T. Hanashima, Y. Homma,',
             title: 'Influence of Gas Adsorption on Optical Transition Energies of Single-Walled Carbon Nanotubes,',
-            journal: 'NanoLett., 8, 3097-3101(2008).',
+            journal: 'Nano Lett., 8, 3097-3101(2008).',
             doi: 'http://dx.doi.org/10.1021/nl801074j',
             year: 2008,
             main: true,
@@ -915,7 +915,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi, Y. Murakami, Y. Miyauchi and S. Maruyama,',
             title: '(FREE ARTICLE) Temperature Dependence of Raman Scattering from Single-walled Carbon Nanotubes -Undefined Radial Breathing Mode Peaks at High Temperatures-,',
-            journal: 'Jpn.J.Appl.Phys., 47-4, 2010-2015(2008).',
+            journal: 'Jpn. J. Appl. Phys., 47-4, 2010-2015(2008).',
             doi: 'http://dx.doi.org/10.1143/JJAP.47.2010',
             year: 2008,
             main: true,
@@ -923,7 +923,7 @@ export const PapersStr = {
         {
             author: 'H. Ohno, D. Takagi, K. Yamada, S. Chiashi, A. Tokura, Y. Homma,',
             title: 'Growth of vertically aligned single-walled carbon nanotubes on alumina and sapphire substrates,',
-            journal: 'Jpn.J.Appl.Phys., 47-4, 1956-1960(2008).',
+            journal: 'Jpn. J. Appl. Phys., 47-4, 1956-1960(2008).',
             doi: 'http://dx.doi.org/10.1143/JJAP.47.1956',
             year: 2008,
             main: false,
@@ -931,7 +931,7 @@ export const PapersStr = {
         {
             author: 'H. Liu†, T. Chokan, D. Takagi, H. Ohno, S. Chiashi, Y. Homma,',
             title: 'Effect of ambient gas on the catalytic properties of Au in single-walled carbon nanotube growth,',
-            journal: 'Jpn.J.Appl.Phys., 47-4, 1966-1970(2008).',
+            journal: 'Jpn. J. Appl. Phys., 47-4, 1966-1970(2008).',
             doi: 'http://dx.doi.org/10.1143/JJAP.47.1966',
             year: 2008,
             main: false,
@@ -939,7 +939,7 @@ export const PapersStr = {
         {
             author: 'I. Takesue, J. Haruyama†, N. Kobayashi, S. Chiashi, S. Maruyama, T. Sugai, H. Shinohara,',
             title: 'High-Tc superconductivity in entirely end-bonded multi-walled carbon nanotubes,',
-            journal: 'MicroelectronicsJournal, 39, 165-170(2008).',
+            journal: 'Microelectronics Journal, 39, 165-170(2008).',
             doi: 'http://dx.doi.org/10.1016/j.mejo.2006.10.002',
             year: 2008,
             main: false,
@@ -947,7 +947,7 @@ export const PapersStr = {
         {
             author: 'H. Liu†, D. Takagi, H. Ohno, S. Chiashi, T. Chokan, Y. Homma†,',
             title: 'Growth of single-walled carbon nanotubes from ceramic particles by alcohol chemical vapor deposition,',
-            journal: 'Appl.Phys.Express, 1, 014001-1-014001-3(2008).',
+            journal: 'Appl. Phys. Express, 1, 014001-1-014001-3(2008).',
             doi: 'http://dx.doi.org/10.1143/APEX.1.014001',
             year: 2008,
             main: false,
@@ -955,7 +955,7 @@ export const PapersStr = {
         {
             author: 'N. Murata, J. Haruyama†, Y. Ueda, M. Matsudaira, H. Karino, Y. Yagi, E. Einarsson, S. Chiashi, S. Maruyama, T. Sugai, N. Kishi, H. Shinohara,',
             title: 'Meissner effect in honeycomb arrays of multi-walled carbon nanotubes,',
-            journal: 'Phys.Rev.B, 76, 245424-1-245424-6(2007).',
+            journal: 'Phys. Rev. B, 76, 245424-1-245424-6(2007).',
             doi: 'http://dx.doi.org/10.1103/PhysRevB.76.245424',
             year: 2007,
             main: false,
@@ -963,7 +963,7 @@ export const PapersStr = {
         {
             author: 'I. Wako, T. Chokan, D. Takagi, S. Chiashi, Y. Homma†,',
             title: 'Direct observation of single-walled carbon nanotube growth processes on SiO2 substrate by in situ scanning electron microscopy,',
-            journal: 'Chem.Phys.Lett., 449, 309-313(2007).',
+            journal: 'Chem. Phys. Lett., 449, 309-313(2007).',
             doi: 'http://dx.doi.org/10.1016/j.cplett.2007.10.082',
             year: 2007,
             main: false,
@@ -971,7 +971,7 @@ export const PapersStr = {
         {
             author: 'T. Koizumi, M. Ikeda, D. Takagi, S. Chiashi, E. Rokuta, C. Oshima, Y. Homma,',
             title: 'Direct growth of vertically aligned single-walled carbon nanotubes on metal tip by applied electronic field,',
-            journal: 'Jpn.J.Appl.Phys., 46, 6087-6090(2007).',
+            journal: 'Jpn. J. Appl. Phys., 46, 6087-6090(2007).',
             doi: 'http://dx.doi.org/10.1143/JJAP.46.6087',
             year: 2007,
             main: false,
@@ -979,7 +979,7 @@ export const PapersStr = {
         {
             author: 'I. Takesue, J. Haruyama, N. Murata, S. Chiashi, S. Maruyama, T. Sugai, H. Shinohara†,',
             title: 'Superconductivity in Entirely End-bonded Multi-Walled Carbon Nanotubes,',
-            journal: 'PhysicaC, 460-462-1, 111-115(2007).',
+            journal: 'Physica C, 460-462-1, 111-115(2007).',
             doi: 'http://dx.doi.org/10.1016/j.physc.2007.03.286',
             year: 2007,
             main: false,
@@ -987,7 +987,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi, M. Kohno†, Y. Takata, S. Maruyama,',
             title: 'Localized synthesis of single-walled carbon nanotubes on silicon substrates by a laser heating catalytic CVD,',
-            journal: 'J.Phys.:Conf.Series, 59, 155-158(2007).',
+            journal: 'J. Phys.: Conf. Series, 59, 155-158(2007).',
             doi: 'http://dx.doi.org/10.1088/1742-6596/59/1/033',
             year: 2007,
             main: false,
@@ -995,7 +995,7 @@ export const PapersStr = {
         {
             author: 'I. Takesue, J. Haruyama†, N. Kobayashi, N. Murata, S. Chiashi, S. Maruyama, T. Sugai, H. Shinohara,',
             title: 'High-Tc superconductivity in entirely end-bonded multi-walled carbon nanotubes,',
-            journal: 'phys.stat.sol.(b), 243, 3423-3429(2006).',
+            journal: 'phys. stat. sol. (b), 243, 3423-3429(2006).',
             doi: 'http://dx.doi.org/10.1002/pssb.200669120',
             year: 2006,
             main: false,
@@ -1003,7 +1003,7 @@ export const PapersStr = {
         {
             author: 'K. Kakehi, S. Noda†, S. Chiashi, S. Maruyama,',
             title: 'Supported Ni catalysts from nominal submonolayers grow single-walled carbon nanotubes,',
-            journal: 'Chem.Phys.Lett., 428, 381-385(2006).',
+            journal: 'Chem. Phys. Lett., 428, 381-385(2006).',
             doi: 'http://dx.doi.org/10.1016/j.cplett.2006.07.039',
             year: 2006,
             main: false,
@@ -1019,7 +1019,7 @@ export const PapersStr = {
         {
             author: 'I. Takesue, J. Haruyama†, N. Kobayashi, S. Chiashi, S. Maruyama, T .Sugai and H. Shinohara,',
             title: 'Superconductivity in entirely end-bonded multiwalled carbon nanotubes,',
-            journal: 'Phys.Rev.Lett., 96, 057001-1-057001-4(2006).',
+            journal: 'Phys. Rev. Lett., 96, 057001-1-057001-4(2006).',
             doi: 'http://dx.doi.org/10.1103/PhysRevLett.96.057001',
             year: 2006,
             main: false,
@@ -1027,7 +1027,7 @@ export const PapersStr = {
         {
             author: 'Y. Murakami, S. Chiashi, E. Einarsson, S. Maruyama†,',
             title: 'Polarization dependence of resonant Raman scattering from vertically aligned single-walled carbon nanotube films,',
-            journal: 'Phys.Rev.B, 71, 085403-1-085403-8(2005).',
+            journal: 'Phys. Rev. B, 71, 085403-1-085403-8(2005).',
             doi: 'http://dx.doi.org/10.1103/PhysRevB.71.085403',
             year: 2005,
             main: false,
@@ -1035,7 +1035,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi, Y. Murakami, Y. Miyauchi, S. Maruyama,',
             title: 'Temperature Measurements of Single-walled Carbon Nanotubes by Raman Scattering,',
-            journal: 'ThermalScienceandEngineering, 13, 71-72(2005).',
+            journal: 'Thermal Scienceand Engineering, 13, 71-72(2005).',
             doi: 'http://dx.doi.org/',
             year: 2005,
             main: false,
@@ -1043,7 +1043,7 @@ export const PapersStr = {
         {
             author: 'M. Kohno†, T. Orii, M. Hirasawa, T. Seto, Y.Murakami, S. Chiashi, Y. Miyauchi, S. Maruyama,',
             title: 'Growth of single-walled carbon nanotubes from size-selected catalytic metal particles,',
-            journal: 'Appl.Phys.A, 79, 787-790(2004).',
+            journal: 'Appl. Phys. A, 79, 787-790(2004).',
             doi: 'http://dx.doi.org/10.1007/s00339-004-2756-1',
             year: 2004,
             main: false,
@@ -1051,7 +1051,7 @@ export const PapersStr = {
         {
             author: 'S. Maruyama†, Y. Murakami, Y. Shibuta, Y. Miyauchi, S. Chiashi,',
             title: 'Generation of Single-Walled Carbon Nanotubes from Alcohol and Generation Mechanism by Molecular Dynamics Simulations,',
-            journal: 'J.Nanosci.Nanotech., 4, 360-367(2004).',
+            journal: 'J. Nanosci. Nanotech., 4, 360-367(2004).',
             doi: 'http://dx.doi.org/10.1166/jnn.2004.067',
             year: 2004,
             main: false,
@@ -1059,7 +1059,7 @@ export const PapersStr = {
         {
             author: 'Y. Miyauchi, S. Chiashi, Y. Murakami, Y. Hayashida, S. Maruyama†,',
             title: 'Fluorescence spectroscopy of single-walled carbon nanotubes synthesized from alcohol,',
-            journal: 'Chem.Phys.Lett., 387, 198-203(2004).',
+            journal: 'Chem. Phys. Lett., 387, 198-203(2004).',
             doi: 'http://dx.doi.org/10.1016/j.cplett.2004.01.116',
             year: 2004,
             main: false,
@@ -1067,7 +1067,7 @@ export const PapersStr = {
         {
             author: 'Y. Murakami, S. Chiashi, Y. Miyauchi, S. Maruyama†,',
             title: 'Direct Synthesis of Single-Walled Carbon Nanotubes on Silicon and Quartz-Based Systems,',
-            journal: 'Jpn.J.Appl.Phys., 43, 1221-1226(2004).',
+            journal: 'Jpn. J. Appl. Phys., 43, 1221-1226(2004).',
             doi: 'http://dx.doi.org/10.1143/JJAP.43.1221',
             year: 2004,
             main: false,
@@ -1075,7 +1075,7 @@ export const PapersStr = {
         {
             author: 'S. Chiashi, Y. Murakami, Y. Miyauchi, S. Maruyama†,',
             title: 'Cold wall CVD generation of single-walled carbon nanotubes and in situ Raman scattering measurements of the growth stage,',
-            journal: 'Chem.Phys.Lett., 386, 89-94(2004).',
+            journal: 'Chem. Phys. Lett., 386, 89-94(2004).',
             doi: 'http://dx.doi.org/10.1016/j.cplett.2003.12.126',
             year: 2004,
             main: true,
@@ -1083,7 +1083,7 @@ export const PapersStr = {
         {
             author: 'Y. Murakami, S. Chiashi, Y. Miyauchi, M. Hu, M. Ogura, T. Okubo, S. Maruyama†,',
             title: 'Growth of vertically aligned single-walled carbon nanotube films on quartz substrates and their optical anisotropy,',
-            journal: 'Chem.Phys.Lett., 385, 298-303(2004).',
+            journal: 'Chem. Phys. Lett., 385, 298-303(2004).',
             doi: 'http://dx.doi.org/10.1016/j.cplett.2003.12.095',
             year: 2004,
             main: false,
@@ -1091,7 +1091,7 @@ export const PapersStr = {
         {
             author: 'S. Maruyama†, Y. Miyauchi, Y. Murakami, S. Chiashi,',
             title: 'Optical characterization of single-walled carbon nanotubes synthesized by catalytic decomposition of alcohol,',
-            journal: 'NewJ.Phys., 5, 149.1-149.12(2003).',
+            journal: 'New J. Phys., 5, 149.1-149.12(2003).',
             doi: 'http://dx.doi.org/10.1088/1367-2630/5/1/149',
             year: 2003,
             main: false,
@@ -1099,7 +1099,7 @@ export const PapersStr = {
         {
             author: 'Y. Murakami, Y. Miyauchi, S. Chiashi, S. Maruyama†,',
             title: 'Direct synthesis of high-quality single-walled carbon nanotubes on silicon and quartz substrates,',
-            journal: 'Chem.Phys.Lett., 377, 49-54(2003).',
+            journal: 'Chem. Phys. Lett., 377, 49-54(2003).',
             doi: 'http://dx.doi.org/10.1016/S0009-2614(03)01094-7',
             year: 2003,
             main: false,
@@ -1107,7 +1107,7 @@ export const PapersStr = {
         {
             author: 'S. Maruyama†, Y. Miyauchi, T. Edamura, Y. Igarashi, S. Chiashi, Y. Murakami,',
             title: 'Synthesis of single-walled carbon nanotubes with narrow diameter-distribution from fullerene,',
-            journal: 'Chem.Phys.Lett., 375, 553-559(2003).',
+            journal: 'Chem. Phys. Lett., 375, 553-559(2003).',
             doi: 'http://dx.doi.org/10.1016/S0009-2614(03)00907-2',
             year: 2003,
             main: false,
@@ -1115,7 +1115,7 @@ export const PapersStr = {
         {
             author: 'Y. Murakami, Y. Miyauchi, S. Chiashi, S. Maruyama†,',
             title: 'Characterization of single-walled carbon nanotubes catalytically synthesized from alcohol,',
-            journal: 'Chem.Phys.Lett., 374, 53-58(2003).',
+            journal: 'Chem. Phys. Lett., 374, 53-58(2003).',
             doi: 'http://dx.doi.org/10.1016/S0009-2614(03)00687-0',
             year: 2003,
             main: false,
@@ -1123,7 +1123,7 @@ export const PapersStr = {
         {
             author: 'M. Kohno†, S. Inoue, R. Kojima, S. Chiashi, S. Maruyama,',
             title: 'FT-ICR studies of laser vaporized clusters from Ni/Co- and Ni/Y-Loaded graphite samples,',
-            journal: 'PhysicaB, 323, 272-274(2002).',
+            journal: 'Physica B, 323, 272-274(2002).',
             doi: 'http://dx.doi.org/10.1016/S0921-4526(02)00996-1',
             year: 2002,
             main: false,
@@ -1131,7 +1131,7 @@ export const PapersStr = {
         {
             author: 'S. Maruyama†, R. Kojima, Y. Miyauchi, S. Chiashi, M. Kohno,',
             title: 'Low-temperature synthesis of high-purity single-walled carbon nanotubes from alcohol,',
-            journal: 'Chem.Phys.Lett., 360, 229-234(2002).',
+            journal: 'Chem. Phys. Lett., 360, 229-234(2002).',
             doi: 'http://dx.doi.org/10.1016/S0009-2614(02)00838-2',
             year: 2002,
             main: true,
