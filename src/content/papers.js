@@ -11,7 +11,7 @@ export const PapersStr = {
         {
             author: 'S. Matsushita, K. Otsuka†, T. Sugihara, G. Zhu, K. Kittipaisalsilpa, M. Lee, R. Xiang, S. Chiashi, S. Maruyama†,',
             title: 'Horizontal Arrays of One-Dimensional van der Waals Heterostructures as Transistor Channels,',
-            journal: 'ACSAppl.Mater.Interfaces, 15, 10965-10973(2023).',
+            journal: 'ACS Appl. Mater. Interfaces, 15, 10965-10973(2023).',
             doi: 'http://dx.doi.org/10.1021/acsami.2c22964',
             year: 2023,
             main: false,
