@@ -15,19 +15,20 @@ import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
     const [language, setLanguage] = useState("Japanese");
+    const homeUrl = "/chiashi/";
     return (
         <ChakraProvider >
             <BrowserRouter>
             <Navbar language={language} setLanguage={setLanguage} />
             <Routes>
-                <Route exact path="/chiashi/react/" element={<Home language={language} />} />
-                <Route path="/chiashi/react/news" element={<News language={language} />} />
-                <Route path="/chiashi/react/research" element={<Research language={language} />} />
-                <Route path="/chiashi/react/members" element={<Members language={language} />} />
-                <Route path="/chiashi/react/papers" element={<Papers language={language} />} />
-                <Route path="/chiashi/react/lectures" element={<Lectures language={language} />} />
-                <Route path="/chiashi/react/openlab" element={<OpenLab language={language} />} />
-                <Route path="/chiashi/react/access" element={<Access language={language} />} />
+                <Route exact path={homeUrl} element={<Home language={language} />} />
+                <Route path={homeUrl + 'news'} element={<News language={language} />} />
+                <Route path={homeUrl + 'research'} element={<Research language={language} />} />
+                <Route path={homeUrl + 'members'} element={<Members language={language} />} />
+                <Route path={homeUrl + 'papers'} element={<Papers language={language} />} />
+                <Route path={homeUrl + 'lectures'} element={<Lectures language={language} />} />
+                <Route path={homeUrl + 'openlab'} element={<OpenLab language={language} />} />
+                <Route path={homeUrl + 'access'} element={<Access language={language} />} />
             </Routes>
             </BrowserRouter>
             <Footer />
