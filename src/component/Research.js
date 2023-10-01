@@ -17,7 +17,6 @@ import { Pages } from '../content/util';
 function ResearchDetail(props) {
     const content = ResearchStr[props.language].contents[props.pageIndex];
     
-    // TODO: ちゃんとした画像を用意する
     const images = [
         <Image src={opticsImg} />,
         <Image src={vdwImg} />,
@@ -25,20 +24,18 @@ function ResearchDetail(props) {
     ]
     return (
         <Box mx={{base: 0, sm: 100}}>
-            <Heading py={[5, 30]}>{content.title}</Heading>
-            <Text sx={contentStyle}>{content.content}</Text>
-            <Center>{images[content.index]}</Center>
+            <Heading py={[5, 30]} textAlign='center'>{content.title}</Heading>
+            <Center><Text sx={contentStyle} maxW={1000}>{content.content}</Text></Center>
+            <Center pt={50}>{images[content.index]}</Center>
         </Box>
     )
 }
-
 
 const imagesThum = [
     opticsImgThum,
     vdwImgThum,
     filmImgThum,
 ]
-
 
 // スマホ用表示
 function ResearchCardOnColumn(props) {
