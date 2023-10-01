@@ -10,6 +10,7 @@ import Papers from './component/Papers';
 import Lectures from './component/Lectures';
 import OpenLab from './component/OpenLab';
 import Access from './component/Access';
+import BackToTop from './component/BackToTop';
 import Footer from './component/Footer';
 import { ChakraProvider } from '@chakra-ui/react';
 
@@ -31,6 +32,7 @@ function App() {
                 <Route path={homeUrl + 'access'} element={<Access language={language} />} />
             </Routes>
             </BrowserRouter>
+            <BackToTop />
             <Footer />
         </ChakraProvider >
     );
