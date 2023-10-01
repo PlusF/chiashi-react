@@ -54,7 +54,7 @@ function AllPapers() {
                                         <Card variant='elevated' padding={{base: 5, sm: 5, md: 15, lg: 10}} my={{base: 5}} key={data.doi}>
                                             <Text>{data.author}</Text>
                                             <Text fontWeight='bold'>"{data.title}"</Text>
-                                            <Text>{data.journal}<Link isExternal href={data.doi} color='teal.500'>{data.doi}</Link></Text>
+                                            <Text>{data.journal} <Link isExternal href={data.doi} color='teal.500'>{data.doi}</Link></Text>
                                         </Card>
                                     );
                                 })
