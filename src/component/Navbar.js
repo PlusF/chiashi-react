@@ -51,7 +51,7 @@ export default function Navbar(props) {
                 <HamburgerMenu pages={pages} location={location} />
                 <HStack>
                     <Box>
-                        <Link to='/chiashi/react/'>
+                        <Link to='/chiashi/'>
                             <Button sx={chiashiLabStyle}><Text zIndex="1">Chiashi Lab.</Text></Button>
                         </Link>
                     </Box>

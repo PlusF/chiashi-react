@@ -24,7 +24,7 @@ export function OpenLabLink(props) {
         </Center>
         <Center>
             <Box py='30'>
-                <Link to={'/chiashi/react/openlab'}>
+                <Link to={'/chiashi/openlab'}>
                     <Button sx={openLabStyle}><Text zIndex={1}>{OpenLabStr[props.language].button}</Text></Button>
                 </Link>
             </Box>
