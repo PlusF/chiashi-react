@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from './component/Navbar';
 import Home from './component/Home';
 import News from './component/News';
@@ -30,6 +30,7 @@ function App() {
                 <Route path={homeUrl + 'lectures'} element={<Lectures language={language} />} />
                 <Route path={homeUrl + 'openlab'} element={<OpenLab language={language} />} />
                 <Route path={homeUrl + 'access'} element={<Access language={language} />} />
+                <Route path={homeUrl + 'index.html'} element={<Navigate replace to={homeUrl} />}/>
             </Routes>
             </BrowserRouter>
             <BackToTop />
