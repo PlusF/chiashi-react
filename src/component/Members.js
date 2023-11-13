@@ -4,6 +4,8 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { MdPeople, MdLink } from "react-icons/md";
 import { MembersStr } from "../content/members";
 import chiashi from '../assets/members/chiashi.jpg';
+import jia from '../assets/members/jia.jpg';
+import liu from '../assets/members/liu.jpg';
 import kaneda from '../assets/members/kaneda.jpg';
 import shimada from '../assets/members/shimada.jpg';
 import nishida from '../assets/members/nishida.jpg';
@@ -11,6 +13,9 @@ import nishimura from '../assets/members/nishimura.jpg';
 import sakakibara from '../assets/members/sakakibara2.jpg';
 import endo from '../assets/members/endo.jpg';
 import miyata from '../assets/members/miyata.jpg';
+import ogata from '../assets/members/ogata.jpg';
+import kahara from '../assets/members/kahara.jpg';
+import fujiwara from '../assets/members/fujiwara.jpg';
 import { contentStyle, titleStyle } from '../style/util';
 import { memberStyle, professorStyle, linkStyle } from '../style/members';
 import { Pages } from "../content/util";
@@ -42,7 +47,7 @@ function Professor(props) {
 
 
 const images = [
-    kaneda, shimada, nishida, nishimura, sakakibara, endo, miyata,
+    jia, liu, kaneda, shimada, nishida, nishimura, sakakibara, endo, miyata, ogata, kahara, fujiwara
 ]
 
 function MemberTable(props) {
