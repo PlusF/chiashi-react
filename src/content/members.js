@@ -22,9 +22,9 @@ export const MembersStr = {
             {grade: '修士課程1年', name: '榊原 海大', email: 'sakakibara@photon.t.u-tokyo.ac.jp'},
             {grade: '学士課程4年', name: '遠藤 剛史', email: 'endo@photon.t.u-tokyo.ac.jp'},
             {grade: '学士課程4年', name: '宮田 和香', email: 'miyata@photon.t.u-tokyo.ac.jp'},
-            {grade: '学士課程3年', name: '緒方 慶一郎', email: ''},
-            {grade: '学士課程3年', name: '賀原 大晶', email: ''},
-            {grade: '学士課程3年', name: '藤原 陸', email: ''},
+            {grade: '学士課程3年', name: '緒方 慶一郎', email: 'ogata@photon.t.u-tokyo.ac.jp'},
+            {grade: '学士課程3年', name: '賀原 大晶', email: 'kahara@photon.t.u-tokyo.ac.jp'},
+            {grade: '学士課程3年', name: '藤原 陸', email: 'Fujiwarariku@photon.t.u-tokyo.ac.jp'},
             
         ]
     },
@@ -50,9 +50,9 @@ export const MembersStr = {
             {grade: 'Master 1st', name: 'Kaito SAKAKIBARA',  email: 'sakakibara@photon.t.u-tokyo.ac.jp'},
             {grade: 'Bachelor 4th', name: 'Tsuyoshi ENDO',  email: 'endo@photon.t.u-tokyo.ac.jp'},
             {grade: 'Bachelor 4th', name: 'Waka MIYATA',  email: 'miyata@photon.t.u-tokyo.ac.jp'},
-            {grade: 'Bachelor 3th', name: 'Keiichiro OGATA',  email: ''},
-            {grade: 'Bachelor 3th', name: 'Hiroaki KAHARA',  email: ''},
-            {grade: 'Bachelor 3th', name: 'Riku FUJIWARA',  email: ''},
+            {grade: 'Bachelor 3th', name: 'Keiichiro OGATA',  email: 'ogata@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Bachelor 3th', name: 'Hiroaki KAHARA',  email: 'kahara@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Bachelor 3th', name: 'Riku FUJIWARA',  email: 'Fujiwarariku@photon.t.u-tokyo.ac.jp'},
         ]
     }
 }
