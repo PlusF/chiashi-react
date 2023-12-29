@@ -13,6 +13,8 @@ export const MembersStr = {
             ]
         },
         members: [
+            {grade: '博士課程1年', name: '賈 偉杰', email: 'jiaweijie@photon.t.u-tokyo.ac.jp'},
+            {grade: '博士課程1年', name: '劉 文傑', email: 'liuwenjie@photon.t.u-tokyo.ac.jp'},
             {grade: '修士課程2年', name: '金田 遼太郎', email: 'kaneda@photon.t.u-tokyo.ac.jp'},
             {grade: '修士課程2年', name: '嶋田 優作', email: 'shimaday@photon.t.u-tokyo.ac.jp'},
             {grade: '修士課程1年', name: '西田 征矢', email: 'nishida@photon.t.u-tokyo.ac.jp'},
@@ -20,6 +22,10 @@ export const MembersStr = {
             {grade: '修士課程1年', name: '榊原 海大', email: 'sakakibara@photon.t.u-tokyo.ac.jp'},
             {grade: '学士課程4年', name: '遠藤 剛史', email: 'endo@photon.t.u-tokyo.ac.jp'},
             {grade: '学士課程4年', name: '宮田 和香', email: 'miyata@photon.t.u-tokyo.ac.jp'},
+            {grade: '学士課程3年', name: '緒方 慶一郎', email: 'ogata@photon.t.u-tokyo.ac.jp'},
+            {grade: '学士課程3年', name: '賀原 大晶', email: 'kahara@photon.t.u-tokyo.ac.jp'},
+            {grade: '学士課程3年', name: '藤原 陸', email: 'Fujiwarariku@photon.t.u-tokyo.ac.jp'},
+            
         ]
     },
     'English': {
@@ -35,13 +41,18 @@ export const MembersStr = {
             ]
         },
         members: [
-            {grade: 'Master 2nd', name: 'Ryotaro Kaneda', email: 'kaneda@photon.t.u-tokyo.ac.jp'},
-            {grade: 'Master 2nd', name: 'Yusaku Shimada',  email: 'shimaday@photon.t.u-tokyo.ac.jp'},
-            {grade: 'Master 1st', name: 'Seiya Nishida',  email: 'nishida@photon.t.u-tokyo.ac.jp'},
-            {grade: 'Master 1st', name: 'Hodaka Nishimura',  email: 'nishimura.hodaka@photon.t.u-tokyo.ac.jp'},
-            {grade: 'Master 1st', name: 'Kaito Sakakibara',  email: 'sakakibara@photon.t.u-tokyo.ac.jp'},
-            {grade: 'Bachelor 4th', name: 'Tsuyoshi Endo',  email: 'endo@photon.t.u-tokyo.ac.jp'},
-            {grade: 'Bachelor 4th', name: 'Waka Miyata',  email: 'miyata@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Doctor 1st', name: 'Weijie JIA', email: 'jiaweijie@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Doctor 1st', name: 'Wenjie LIU', email: 'liuwenjie@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Master 2nd', name: 'Ryotaro KANEDA', email: 'kaneda@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Master 2nd', name: 'Yusaku SHIMADA',  email: 'shimaday@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Master 1st', name: 'Seiya NISHIDA',  email: 'nishida@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Master 1st', name: 'Hodaka NISHIMURA',  email: 'nishimura.hodaka@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Master 1st', name: 'Kaito SAKAKIBARA',  email: 'sakakibara@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Bachelor 4th', name: 'Tsuyoshi ENDO',  email: 'endo@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Bachelor 4th', name: 'Waka MIYATA',  email: 'miyata@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Bachelor 3th', name: 'Keiichiro OGATA',  email: 'ogata@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Bachelor 3th', name: 'Hiroaki KAHARA',  email: 'kahara@photon.t.u-tokyo.ac.jp'},
+            {grade: 'Bachelor 3th', name: 'Riku FUJIWARA',  email: 'Fujiwarariku@photon.t.u-tokyo.ac.jp'},
         ]
     }
 }

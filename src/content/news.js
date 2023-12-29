@@ -3,6 +3,10 @@ export const NewsStr = {
         title: 'ニュース',
         content: [
             {
+                date: '2023/11/13',
+                news: '千足研に新しくD1の賈君と劉君，B3の緒方君と賀原君と藤原君が加入しました！'
+            },
+            {
                 date: '2023/09/28',
                 news: '2023年度のオープンラボの日程を更新しました．'
             },
@@ -35,6 +39,10 @@ export const NewsStr = {
     'English': {
         title: 'News',
         content: [
+            {
+                date: '2023/11/13',
+                news: 'D1 Jia, D1 Liu, B3 Ogata, B3 Kahara and B3 Fujiwara have newly joined us!'
+            },
             {
                 date: '2023/09/28',
                 news: 'The schedule for Open Lab. has been updated.'
