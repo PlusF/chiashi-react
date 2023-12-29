@@ -12,6 +12,7 @@ import OpenLab from './component/OpenLab';
 import Access from './component/Access';
 import BackToTop from './component/BackToTop';
 import Footer from './component/Footer';
+import Tools from './component/Tools';
 import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
                 <Route path={homeUrl + 'lectures'} element={<Lectures language={language} />} />
                 <Route path={homeUrl + 'openlab'} element={<OpenLab language={language} />} />
                 <Route path={homeUrl + 'access'} element={<Access language={language} />} />
+                <Route path={homeUrl + 'tools'} element={<Tools/>}/>
                 <Route path={homeUrl + 'index.html'} element={<Navigate replace to={homeUrl} />}/>
             </Routes>
             </BrowserRouter>
