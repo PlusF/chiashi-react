@@ -1,4 +1,4 @@
-import { Avatar, Card, Center, HStack, Image, Link, Table, Tbody, TableContainer, Td, Tr , Text, VStack } from "@chakra-ui/react";
+import { Avatar, Card, Center, HStack, Image, Link, Table, Tbody, TableContainer, Td, Tr , Text, VStack, Tooltip } from "@chakra-ui/react";
 import { Link as RouterLink } from 'react-router-dom';
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { MdPeople, MdLink } from "react-icons/md";
@@ -86,15 +86,30 @@ function MemberTable(props) {
 }
 
 
-function MemberIcons() {
+function MemberIcons(props) {
     return (
-        <Center py={30}>
-            <HStack spacing={{base: 2, md: 5, lg: 10}}>
-                {images.map((image, i) => {
-                    return <Card key={i} variant='unstyled'><Avatar src={image} size={{base: 'md', sm: 'lg'}} /></Card>
-                })}
-            </HStack>
-        </Center>
+            <TableContainer mx={{base: '0', md: '10'}}>
+                <Table m='10'>
+                    <Tbody>
+                        <Tr>
+                            <Td>
+                                <Center>
+                                    <HStack spacing={{base: 2, md: 5}}>
+                                        {images.map((image, i) => {
+                                            const label =MembersStr[props.language].members[i].grade + ' ' + MembersStr[props.language].members[i].name
+                                            return (
+                                                <Tooltip key={i} label={label} aria-label="A tooltip">
+                                                    <Card variant='unstyled'><Avatar src={image} size={{base: 'md', sm: 'lg'}} /></Card>
+                                                </Tooltip>
+                                            )
+                                        })}
+                                    </HStack>
+                                </Center>
+                            </Td>
+                        </Tr>
+                    </Tbody>
+                </Table>
+            </TableContainer>
     )
 }
 
@@ -113,7 +128,7 @@ export default function Members(props) {
                 </RouterLink>
             </Center>
             <Professor language={props.language}/>
-            {props.onHome && <MemberIcons/>}
+            {props.onHome && <MemberIcons language={props.language}/>}
             {!props.onHome && <MemberTable language={props.language}/>}
         </>
     )
